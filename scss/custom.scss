@@ -1,0 +1,18 @@
+// custom.scss
+@import "../node_modules/bootstrap/scss/functions";
+
+// // Default variable
+// $body-bg: #000;
+// $body-color: #111;
+$body-bg: #333333; // Dark gray background
+$body-color: #d1d1d1; // Light gray color for text
+
+// Required
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+
