@@ -17,17 +17,36 @@ $navbar-dark-color: #ffffff; // White text color for navbar
 @import "../node_modules/bootstrap/scss/root";
 @import "../node_modules/bootstrap/scss/reboot";
 @import "../node_modules/bootstrap/scss/type";
-@import "../node_modules/bootstrap/scss/navbar"; // Ensure navbar styles are included
+@import "../node_modules/bootstrap/scss/navbar";
 
 // Additional styles for navbar if $navbar-dark-bg is not a default variable
+// .navbar {
+//     background-color: $navbar-dark-bg !important;
+//     color: $navbar-dark-color;
+//     margin-bottom: 80px; // Adjust the value as needed
+// }
+
+// // Ensure links in the navbar are also styled appropriately
+// .navbar-dark .navbar-nav .nav-link {
+//     color: $navbar-dark-color;
+// }
+
+// Navbar custom styles
 .navbar {
     background-color: $navbar-dark-bg !important;
     color: $navbar-dark-color;
-    margin-bottom: 80px; // Adjust the value as needed
+    justify-content: center; // Center vertically
+    position: fixed; // Ensure navbar is fixed
+    top: 0; // Align top to the viewport
+    right: 0; // Align to the right side of the viewport
+    height: 100vh; // Full viewport height
+    width: 200px; // Define a fixed width for the navbar
+    margin-bottom: 0; // Adjust as needed
 }
 
 
-// Ensure links in the navbar are also styled appropriately
+// Ensuring links are styled appropriately
 .navbar-dark .navbar-nav .nav-link {
     color: $navbar-dark-color;
 }
+

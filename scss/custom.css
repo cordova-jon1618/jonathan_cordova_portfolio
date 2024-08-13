@@ -1119,7 +1119,13 @@ progress {
 .navbar {
   background-color: #000000 !important;
   color: #ffffff;
-  margin-bottom: 80px;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 200px;
+  margin-bottom: 0;
 }
 
 .navbar-dark .navbar-nav .nav-link {
