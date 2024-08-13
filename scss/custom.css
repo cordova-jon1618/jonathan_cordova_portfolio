@@ -1127,6 +1127,7 @@ progress {
   margin-bottom: 0;
   padding-top: 30px;
   padding-bottom: 30px;
+  flex-wrap: wrap;
 }
 
 .navbar-nav {
@@ -1138,6 +1139,7 @@ progress {
   height: 100vh;
   width: 200px;
   margin-bottom: 0;
+  flex-wrap: wrap;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -1146,8 +1148,22 @@ progress {
 
 .navbar-brand img {
   margin-left: 15px;
-  padding-top: 30px;
+  padding-top: 40px;
   padding-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 15px 15px;
+  text-align: center;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  white-space: normal;
 }
 
 /*# sourceMappingURL=custom.css.map */
