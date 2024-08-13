@@ -1125,6 +1125,8 @@ progress {
   height: 100vh;
   width: 200px;
   margin-bottom: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .navbar-nav {
@@ -1140,6 +1142,12 @@ progress {
 
 .navbar-dark .navbar-nav .nav-link {
   color: #ffffff;
+}
+
+.navbar-brand img {
+  margin-left: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /*# sourceMappingURL=custom.css.map */

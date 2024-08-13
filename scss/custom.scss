@@ -42,6 +42,8 @@ $navbar-dark-color: #ffffff; // White text color for navbar
     height: 100vh; 
     width: 200px; 
     margin-bottom: 0; 
+    padding-top: 30px; // Adds padding above the image
+    padding-bottom: 30px; // Adds padding below the image
 }
 
 .navbar-nav {
@@ -61,3 +63,8 @@ $navbar-dark-color: #ffffff; // White text color for navbar
     color: $navbar-dark-color;
 }
 
+.navbar-brand img {
+    margin-left: 15px; // Horizontal spacing
+    padding-top: 30px; // Adds padding above the image
+    padding-bottom: 30px; // Adds padding below the image
+}
