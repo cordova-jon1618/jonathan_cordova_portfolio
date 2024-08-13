@@ -1,0 +1,15 @@
+
+
+/* @keyframes slowRotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} */
+
+/* Apply the animation to all cards or specific ones */
+/* .card {
+    animation: slowRotate 10s infinite linear;
+} */
