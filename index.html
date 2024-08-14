@@ -11,11 +11,24 @@
     <link href="scss/custom.css" rel="stylesheet">
     <!-- Link to the animation stylesheet -->
     <!-- <link rel="stylesheet" href="css/animation.css"> -->
-     <!-- Slick Carousel CSS -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+
+    <!-- Slick Carousel CSS -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/animation.css"> -->
+
+    <link rel="stylesheet" href="css/carousel.css">
+    <!-- jQuery library via Google CDN -->
+    <!-- Replaced the slim version with the full version of jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- JavaScript Bootstrap Bundle with Popper (Only one Bootstrap JS include) -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-muWyVGEWInUGBXeY3mE67lAUPVWWpbBJ7x5J1TJphr8hjwkqKDZu+6Shw1FxufoG" crossorigin="anonymous"></script> -->
+    <!-- Custom carousel script -->
+    <script src="js/carousel.js"></script>
+    
     <!-- JavaScript Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-muWyVGEWInUGBXeY3mE67lAUPVWWpbBJ7x5J1TJphr8hjwkqKDZu+6Shw1FxufoG" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-muWyVGEWInUGBXeY3mE67lAUPVWWpbBJ7x5J1TJphr8hjwkqKDZu+6Shw1FxufoG" crossorigin="anonymous"></script> -->
 </head>
 
 
@@ -112,8 +125,7 @@
             <!-- Project Section-->
             <section id="project" class="container full-height mb-5">
                 <h2>Projects</h2>
-                <div class="row">
-                    <!-- Row 1 -->
+                <!-- <div class="row">
                     <div class="col-md-4">
                         <div class="card" style="width: 18rem;">
                             <img src="https://via.placeholder.com/150" class="card-img-top rounded" alt="Project Image">
@@ -143,9 +155,73 @@
                                 <a href="#" class="btn btn-primary">Button</a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
+                    <div id="carouselExampleControls" class="carousel">
+                        <div class="carousel-inner row w-100 mx-auto">
+                            <!-- Active only on the first item -->
+                            <div class="carousel-item col-md-4 active">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="https://via.placeholder.com/150" class="card-img-top rounded" alt="Project Image">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Project Title 1</h5>
+                                        <p class="card-text">Project Details...</p>
+                                        <a href="#" class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Remaining items without the active class -->
+                            <div class="carousel-item col-md-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="https://via.placeholder.com/150" class="card-img-top rounded" alt="Project Image">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Project Title 2</h5>
+                                        <p class="card-text">Project Details...</p>
+                                        <a href="#" class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item col-md-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="https://via.placeholder.com/150" class="card-img-top rounded" alt="Project Image">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Project Title 3</h5>
+                                        <p class="card-text">Project Details...</p>
+                                        <a href="#" class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item col-md-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="https://via.placeholder.com/150" class="card-img-top rounded" alt="Project Image">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Project Title 4</h5>
+                                        <p class="card-text">Project Details...</p>
+                                        <a href="#" class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item col-md-4">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="https://via.placeholder.com/150" class="card-img-top rounded" alt="Project Image">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Project Title 5</h5>
+                                        <p class="card-text">Project Details...</p>
+                                        <a href="#" class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Additional project cards similar to the first one -->
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
 
-                </div>
+                    </div>                    
             </section>
 
 
@@ -227,6 +303,11 @@
 
         </div>
 </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="carousel.js"></script> <!-- Your custom carousel JavaScript -->
 
 </body>
 </html>
