@@ -2,8 +2,6 @@
 @import "../node_modules/bootstrap/scss/functions";
 
 // // Default variable
-// $body-bg: #000;
-// $body-color: #111;
 $body-bg: #333333; // Dark gray background
 $body-color: #d1d1d1; // Light gray color for text
 $navbar-dark-bg: #000000; // Black navbar background
@@ -19,17 +17,6 @@ $navbar-dark-color: #ffffff; // White text color for navbar
 @import "../node_modules/bootstrap/scss/type";
 @import "../node_modules/bootstrap/scss/navbar";
 
-// Additional styles for navbar if $navbar-dark-bg is not a default variable
-// .navbar {
-//     background-color: $navbar-dark-bg !important;
-//     color: $navbar-dark-color;
-//     margin-bottom: 80px; // Adjust the value as needed
-// }
-
-// // Ensure links in the navbar are also styled appropriately
-// .navbar-dark .navbar-nav .nav-link {
-//     color: $navbar-dark-color;
-// }
 
 // Navbar custom styles
 .navbar {
@@ -38,7 +25,8 @@ $navbar-dark-color: #ffffff; // White text color for navbar
     //justify-content: center; // Center vertically
     position: fixed; 
     top: 0; 
-    right: 0; 
+    // right: 0; 
+    left: 0; // Adjusting sidebar position
     height: 100vh; 
     width: 200px;
     margin-bottom: 0; 

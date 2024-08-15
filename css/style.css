@@ -1,0 +1,298 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&display=swap');
+
+/* CSS Global Color Variables */
+:root {
+    --color-body: #d4e6f1; /* Light blue for body text */
+    --color-heading: #ffffff; /* White for headings */
+    --color-base: #1f4e79; /* Dark blue for the base background */
+    --color-base2: #163b57; /* Even darker blue for secondary background */
+    --color-brand: #4a90e2; /* Bright blue for primary accents */
+    --color-brand2: #357ABD; /* Slightly darker blue for secondary accents */
+    --sidebar-width: 200px;
+    --font-base: "Bai Jamjuree", sans-serif;
+}
+
+
+/* Global Styles */
+body, html {
+    background-color: var(--color-base2);
+    color: var(--color-body);
+    font-family: var(--font-base);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-heading);
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-body);
+    transition: all 0.4s ease;
+}
+
+a:hover {
+    color: var(--color-brand);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: var(--color-base);
+}
+
+.navbar .nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color-heading);
+}
+
+.navbar .nav-link:hover {
+    color: var(--color-brand);
+}
+
+/* .navbar-brand img {
+    border: 8px solid var(--color-base);
+    border-radius: 50%;
+} */
+
+/* Sidebar Adjustments for larger screens */
+@media (min-width: 992px) {
+    .navbar {
+        min-height: 100vh;
+        width: var(--sidebar-width);
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    .main-content {
+        margin-left: var(--sidebar-width);
+        width: calc(100% - var(--sidebar-width));
+    }
+}
+
+/* Section Styling */
+.full-height {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+/* Card and Carousel Styles */
+.carousel-inner {
+    padding: 1em;
+}
+
+.card {
+    margin: 0 auto;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.carousel-control-prev, .carousel-control-next {
+    background-color: #e1e1e1;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (min-width: 768px) {
+    .carousel-item {
+        margin-right: 0;
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+        display: block;
+    }
+    
+    .carousel-inner {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .carousel-inner {
+        flex-wrap: wrap;
+    }
+
+    .card-custom img {
+        max-width: 100%;
+    }
+}
+
+/* Highlight Section Styles */
+.list-group-item {
+    background-color: var(--color-base2);
+    color: var(--color-body);
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: var(--color-base);
+    color: var(--color-brand);
+}
+
+/* Timeline Styles */
+.timeline {
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+.timeline-content {
+    position: relative;
+    padding-left: 20px;
+}
+
+.timeline-content .date {
+    font-weight: 700;
+    color: var(--color-brand);
+    margin-bottom: 10px;
+}
+
+.timeline-content p {
+    margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+    .timeline {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .timeline-content {
+        padding-left: 0;
+    }
+}
+
+/* Button Styles */
+.btn {
+    padding: 12px 28px;
+    font-weight: 700;
+}
+
+.btn-primary {
+    background-color: var(--color-brand);
+    border-color: var(--color-brand);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: var(--color-brand2);
+    color: var(--color-base);
+    border-color: var(--color-brand2);
+}
+
+/* Custom Link Underline Effect */
+.link-custom {
+    font-weight: 700;
+    position: relative;
+}
+
+.link-custom::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: var(--color-brand);
+    position: absolute;
+    left: 0;
+    top: 110%;
+    transition: width 0.4s;
+}
+
+.link-custom:hover::after {
+    width: 100%;
+}
+
+/* Contact Form Styles */
+.contact-inputs {
+    width: 100%;
+    max-width: 500px;
+    height: 45px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    color: white;
+    border-radius: 50px;
+}
+
+.contact-left textarea {
+    width: 100%;
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.gradientButton {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(90deg, var(--color-base), var(--color-base2));
+    cursor: pointer;
+}
+
+.gradientButton:hover {
+    background: linear-gradient(90deg, var(--color-base2), var(--color-base));
+}
+
+/* Media Queries for Small Screens */
+@media (max-width: 992px) {
+    .navbar {
+        width: 100%;
+        position: static;
+    }
+
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        max-width: 100px;
+    }
+
+    .full-height {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
