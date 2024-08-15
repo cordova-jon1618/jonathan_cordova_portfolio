@@ -1,7 +1,7 @@
 // carousel.js
 
 // $(document).ready(function() {
-//     var multipleCardCarousel = document.querySelector("#carouselExampleControls");
+//     var multipleCardCarousel = document.querySelector("#carouselControls");
 
 //     function adjustCarousel() {
 //         if (window.matchMedia("(min-width: 768px)").matches) {
@@ -12,14 +12,14 @@
 //             // Reset scroll position on resize
 //             $(".carousel-inner").scrollLeft(0);
 
-//             $("#carouselExampleControls .carousel-control-next").off("click").on("click", function () {
+//             $("#carouselControls .carousel-control-next").off("click").on("click", function () {
 //                 if (scrollPosition < carouselWidth - cardWidth * 3) {
 //                     scrollPosition += cardWidth;
 //                     $(".carousel-inner").animate({ scrollLeft: scrollPosition }, 600);
 //                 }
 //             });
 
-//             $("#carouselExampleControls .carousel-control-prev").off("click").on("click", function () {
+//             $("#carouselControls .carousel-control-prev").off("click").on("click", function () {
 //                 if (scrollPosition > 0) {
 //                     scrollPosition -= cardWidth;
 //                     $(".carousel-inner").animate({ scrollLeft: scrollPosition }, 600);
@@ -41,7 +41,7 @@
 // });
 
 $(document).ready(function() {
-    var multipleCardCarousel = document.querySelector("#carouselExampleControls");
+    var multipleCardCarousel = document.querySelector("#carouselControls");
     if (window.matchMedia("(min-width: 768px)").matches) {
         var carousel = new bootstrap.Carousel(multipleCardCarousel, {
             interval: false,
@@ -50,14 +50,14 @@ $(document).ready(function() {
         var cardWidth = $(".carousel-item").width();
         var scrollPosition = 0;
 
-        $("#carouselExampleControls .carousel-control-next").on("click", function () {
+        $("#carouselControls .carousel-control-next").on("click", function () {
             if (scrollPosition < carouselWidth - cardWidth * 3) {
                 scrollPosition += cardWidth;
                 $(".carousel-inner").animate({ scrollLeft: scrollPosition }, 600);
             }
         });
 
-        $("#carouselExampleControls .carousel-control-prev").on("click", function () {
+        $("#carouselControls .carousel-control-prev").on("click", function () {
             if (scrollPosition > 0) {
                 scrollPosition -= cardWidth;
                 $(".carousel-inner").animate({ scrollLeft: scrollPosition }, 600);
