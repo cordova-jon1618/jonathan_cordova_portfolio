@@ -2,7 +2,7 @@
     padding: 1em;
 }
 .card {
-    margin: 0 auto; /* Centers the card in the column */
+    margin: 0 auto;
     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
     border: none;
 }
@@ -11,31 +11,47 @@
     width: 6vh;
     height: 6vh;
     border-radius: 50%;
+    position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    z-index: 2; /* Ensure buttons stay above carousel items */
+    transition: none; /* Disable any transitions that might cause movement */
+    display: flex; /* Ensure the buttons are displayed correctly */
+    align-items: center; /* Center the icon vertically */
+    justify-content: center; /* Center the icon horizontally */
 }
+
+.carousel-control-prev {
+    left: 10px; /* Adjust the left positioning to keep it within bounds */
+}
+
+.carousel-control-next {
+    right: 10px; /* Adjust the right positioning to keep it within bounds */
+}
+
 @media (min-width: 768px) {
     .carousel-item {
         margin-right: 0;
         flex: 0 0 33.333333%;
-        max-width: 33.333333%; /* Ensure this is added */
+        max-width: 33.333333%;
         display: block;
     }
     
     .carousel-inner {
         display: flex;
-        flex-wrap: nowrap; /* Prevents wrapping of items */
+        flex-wrap: nowrap;
+        overflow: hidden; /* Ensure no overflow issues */
     }
     
     .card {
-        margin: 0 auto; /* Center the card in the column */
+        margin: 0 auto;
         box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
         border: none;
     }
 }
 .card .img-wrapper {
     max-width: 100%;
-    height: auto; /* Adjust height as necessary */
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,3 +64,4 @@
         height: auto; /* Adjust for smaller devices */
     }
 }
+
