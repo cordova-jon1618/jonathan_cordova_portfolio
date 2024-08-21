@@ -296,3 +296,15 @@ img {
         padding-bottom: 40px;
     }
 }
+
+.container-grid {
+    display: grid;
+    grid-template-columns: 200px 1fr; /* Sidebar + Main content */
+    grid-template-rows: auto;
+}
+
+@media (max-width: 768px) {
+    .container-grid {
+        grid-template-columns: 1fr; /* Stack items on small screens */
+    }
+}

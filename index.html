@@ -76,44 +76,41 @@
     <!-- Navbar -->
 
     <!-- Sidebar -->
-    <div class="d-flex">
+    <!-- <div class="d-flex"> -->
+    <div class="d-flex flex-column flex-lg-row">
         <!-- <nav class="navbar navbar-dark bg-dark flex-column" style="height: 100vh; position: fixed; width: 200px;"> -->
-        <nav class="navbar navbar-dark bg-dark flex-column">           
-            <!-- <a class="navbar-brand" href="#">First Name Last Name Porfolio -->
+        <nav class="navbar navbar-dark bg-dark flex-column">
             <a class="navbar-brand" href="#">First Name Last Name Porfolio
                 <span id="navbarBrandText" class="h3 fw-bold d-block d-lg-none">My Name</span> 
-                <!-- Placeholder image with Bootstrap utility classes -->
-                <!-- <img id="navbarBrandImage" src="https://via.placeholder.com/150" class="d-none d-lg-block rounded-circle" alt="Profile Placeholder"> -->
-                <img id="navbarBrandImage" src="assets/profile_photo.png" 
-                class="d-none d-lg-block rounded-circle" 
+                <img id="navbarBrandImage" src="assets/profile_photo.png"
+                class="d-none d-lg-block rounded-circle"
                 alt="Profile Placeholder" style="max-width: 175px; height: auto;">
             </a>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#project">Project</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#research">Research</a>
-                </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills</a>
-                </li> -->
-                <li class="nav-item">
-                    <a class="nav-link" href="#highlights">Highlights</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#experience">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-            </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#research">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#highlights">Highlights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                </ul>
         </nav>
+    </div>
         <!-- Main content -->
-        <div class="main-content" style="margin-left: 200px; width: calc(100% - 200px);">
+        <!-- <div class="main-content" style="margin-left: 200px; width: calc(100% - 200px);"> -->
+        <div class="main-content flex-grow-1">
 
     
             <!-- Home section -->
@@ -189,16 +186,26 @@
                             </div>
                             <!-- Additional project cards similar to the first one -->
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+                        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
+                        </button> -->
+                        <!-- Revised: Added margin-left to the previous button to ensure it doesn't touch the sidebar -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev" style="margin-left: 10px;">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
                         </button>
+                        <!-- Revised: Added margin-right to the next button to ensure it doesn't touch the sidebar -->
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next" style="margin-right: 10px;">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                     </div>
-                </div>                    
+                </div>
             </section>
 
 

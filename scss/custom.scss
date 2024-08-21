@@ -22,29 +22,36 @@ $navbar-dark-color: #ffffff; // White text color for navbar
 .navbar {
     background-color: $navbar-dark-bg !important;
     color: $navbar-dark-color;
-    //justify-content: center; // Center vertically
-    position: fixed; 
-    top: 0; 
-    // right: 0; 
-    left: 0; // Adjusting sidebar position
-    height: 100vh; 
-    width: 200px;
-    margin-bottom: 0; 
-    padding-top: 30px; // Adds padding above the image
-    padding-bottom: 30px; // Adds padding below the image
-    flex-wrap: wrap; // Allows items to wrap within the navbar
+    justify-content: center; // Center all in block vertically
+    // position: fixed;
+    // top: 0; 
+    // // right: 0; 
+    // left: 0;
+    // height: 100vh; 
+    // width: 200px;
+    // margin-bottom: 0; 
+    padding-top: 30px; // Adding padding above the image
+    padding-bottom: 30px; // Adding padding below the image
+    // flex-wrap: wrap; // Allows items to wrap within the navbar
 }
 
 .navbar-nav {
     display: flex;
     flex-direction: column;
-    justify-content: center; // Center vertically
+    justify-content: center; // Aligns items to the top
     align-items: center; // Center horizontally
-    position: fixed; 
-    height: 100vh; 
-    width: 200px; 
+    width: 100%;
     margin-bottom: 0;
     flex-wrap: wrap; // Allows items to wrap within the navbar
+    padding: 15px 15px 200px 15px; // Top padding is 15px, bottom padding is 200px, right and left padding are 15px
+    text-align: center; // Centers the text horizontally
+    overflow-wrap: break-word; // Allows long words to be broken and wrap to the next line
+    word-break: break-all; // Break words at any character to prevent overflow
+    white-space: normal; // Allows text to wrap naturally
+}
+
+.nav-item {
+    padding: 1px 0; // padding above and below each nav-item
 }
 
 
@@ -64,9 +71,9 @@ $navbar-dark-color: #ffffff; // White text color for navbar
     display: flex;
     align-items: center; // Vertically centers items within navbar-brand
     justify-content: center; // Horizontally centers items within navbar-brand
-    width: 100%; // Ensures it spans the full width for proper centering
+    width: 100%;
     flex-wrap: wrap; // Allows content to wrap if needed
-    padding: 15px 15px; // Adds vertical padding and horizontal padding for spacing
+    padding: 5px 20px 20px 20px; // Top padding is 5px, bottom padding is 20px, right and left padding are 20px
     text-align: center; // Centers the text horizontally
     overflow-wrap: break-word; // Allows long words to be broken and wrap to the next line
     word-break: break-all; // Break words at any character to prevent overflow
