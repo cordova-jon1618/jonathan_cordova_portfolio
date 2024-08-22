@@ -6,9 +6,13 @@ const portfolioTitle = `${firstName} ${lastName}\nPortfolio`;  // "Portfolio" on
 const navbarBrandText = "My Name is Jonathan Cordova";
 // const profilePhotoSrc = "../assets/profile_photo.png";
 
+// Home Section //
+// -------------------------------- //
 const sectionHomeTitle = "Career Portfolio";
 const sectionHomeDescription = "Description and experience.";
 
+// Project Section //
+// -------------------------------- //
 // Project Titles
 const projectTitle1 = "Minimalist To-Do List Android Application";
 const projectTitle2 = "Built a Chess AI using Python";
@@ -33,3 +37,25 @@ const projectDescription3 = "This Machine Learning (ML) agent project uses compu
 const projectImage1 = "./assets/projects/Icon_Image_Android_ToDoList.jpg";
 const projectImage2 = "./assets/projects/Icon_Image_Python_ChessAI.jpg";
 const projectImage3 = "./assets/projects/Icon_Image_MLAgent_3.jpg";
+
+// Research Section //
+// -------------------------------- //
+// Research Titles
+const researchTitle1 = "Energy-efficient Workload Management in Datacenters";
+const researchTitle2 = "ARCS at CSUN: 3D Object Detection and Vehicle Classification based on LiDAR Point Clouds for Real-time Traffic Flow Monitoring";
+const researchTitle3 = "3D Vehicle Detection in Roadside Traffic Flow using Complex-YOLO";
+
+// Research Descriptions
+const researchDescription1 = "IEEE Publication 2023";
+const researchDescription2 = "Fellowship through Autonomy Research Center for STEAHM (ARCS) at "
++ "California State University, Northridge (CSUN), a NASA-sponsored project in collaboration with NASA's Jet Propulsion Laboratory (JPL).";
+const researchDescription3 = "IEEE Publication 2024";
+
+// Research Images
+// const researchImage1 = "https://via.placeholder.com/150";
+// const researchImage2 = "https://via.placeholder.com/150";
+// const researchImage3 = "https://via.placeholder.com/150";
+
+const researchImage1 = "./assets/research/icon_image_research_1_energy.png";
+const researchImage2 = "./assets/research/icon_image_research_2_arcs.jpg";
+const researchImage3 = "./assets/research/icon_image_research_3_complexyolo.jpg";
