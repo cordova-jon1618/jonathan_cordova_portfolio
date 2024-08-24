@@ -134,3 +134,26 @@ const experienceDescription6_2 = "Successfully managing the reporting of weekly 
 + "account using Microsoft Excel PV Tables, Vlookups, Functions, Visual Basic Application (VBA) Macros for claims including Medical, Mental Health and Pharmacy.";
 const experienceDescription6_3 = "Successfully manage the Health Net Centene's client account, CalPERS, including the reconciling, billing, and reporting for "
 + "capitation, claims, and administrative fees using Excel Visual Basic (VBA) Macros and VBA programming techniques to automate procedural processes.";
+
+
+
+// Highlight Section //
+// -------------------------------- //
+// Highlight Titles
+const highlightTitle1 = "";
+const highlightTitle2 = "";
+const highlightTitle3 = "";
+
+// Highlight Descriptions
+const highlightDescription1 = "";
+const highlightDescription2 = "";
+const highlightDescription3 = "";
+
+// Highlight Images
+const highlightImage1 = "https://via.placeholder.com/150";
+const highlightImage2 = "https://via.placeholder.com/150";
+const highlightImage3 = "https://via.placeholder.com/150";
+
+// const highlightImage1 = "./assets/highlight/";
+// const highlightImage2 = "./assets/highlight/";
+// const highlightImage3 = "./assets/highlight/";

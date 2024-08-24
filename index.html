@@ -143,6 +143,20 @@
             document.getElementById('experience-description-6-3').textContent = `• ${experienceDescription6_3}`;
 
 
+            // Highlight Section
+            // -------------------------------------------
+            document.getElementById('highlightTitle1').innerText = highlightTitle1;
+            document.getElementById('highlightTitle2').innerText = highlightTitle2;
+            document.getElementById('highlightTitle3').innerText = highlightTitle3;
+
+            document.getElementById('highlightDescription1').innerText = highlightDescription1;
+            document.getElementById('highlightDescription2').innerText = highlightDescription2;
+            document.getElementById('highlightDescription3').innerText = highlightDescription3;
+
+            document.getElementById('highlightImage1').src = highlightImage1;
+            document.getElementById('highlightImage2').src = highlightImage2;
+            document.getElementById('highlightImage3').src = highlightImage3;
+
         });
     </script>
     
@@ -608,13 +622,52 @@
 
 
             <!-- Highlights section -->
-            <section id="highlights" class="container full-height mb-5">
+            <!-- <section id="highlights" class="container full-height mb-5">
                 <h2>Highlights</h2>
                 <ul class="list-group">
                     <li class="list-group-item">Highlight 1</li>
                     <li class="list-group-item">Highlight 2</li>
                     <li class="list-group-item">Highlight 3</li>
                 </ul>
+            </section> -->
+
+            <!-- Highlights section -->
+            <section id="highlights" class="container full-height mb-5">
+                <h2>Highlights</h2>
+                
+                <div class="row">
+                    <!-- Row 1 -->
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img id="highlightImage1" class="card-img-top rounded" alt="Highlight Image 1">
+                            <div class="card-body">
+                                <h5 id="highlightTitle1" class="card-title"></h5>
+                                <p id="highlightDescription1" class="card-text"></p>
+                                <a href="#" class="btn btn-primary">Learn More...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img id="highlightImage2" class="card-img-top rounded" alt="Highlight Image 2">
+                            <div class="card-body">
+                                <h5 id="highlightTitle2" class="card-title"></h5>
+                                <p id="highlightDescription2" class="card-text"></p>
+                                <a href="#" class="btn btn-primary">Learn More...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img id="highlightImage3" class="card-img-top rounded" alt="Highlight Image 3">
+                            <div class="card-body">
+                                <h5 id="highlightTitle3" class="card-title"></h5>
+                                <p id="highlightDescription3" class="card-text"></p>
+                                <a href="#" class="btn btn-primary">Learn More...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <!-- About section -->
