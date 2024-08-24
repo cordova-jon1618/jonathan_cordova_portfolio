@@ -77,6 +77,72 @@
             document.getElementById('researchImage1').src = researchImage1;
             document.getElementById('researchImage2').src = researchImage2;
             document.getElementById('researchImage3').src = researchImage3;
+
+
+            // Experience Section
+            // -------------------------------------------
+            
+            // Set the content for experience 1 using variables
+            document.getElementById('experience-img-1').src = experienceImgSrc1;
+            document.getElementById('experience-img-1').alt = experienceImgAlt1;
+            document.getElementById('experience-position-1').textContent = experiencePosition1;
+            document.getElementById('experience-company-1').textContent = experienceCompany1;
+            document.getElementById('experience-duration-1').textContent = experienceDuration1;
+            document.getElementById('experience-description-1-1').textContent = `• ${experienceDescription1_1}`;
+            document.getElementById('experience-description-1-2').textContent = `• ${experienceDescription1_2}`;
+            document.getElementById('experience-description-1-3').textContent = `• ${experienceDescription1_3}`;
+
+            // Experience 2
+            document.getElementById('experience-img-2').src = experienceImgSrc2;
+            document.getElementById('experience-img-2').alt = experienceImgAlt2;
+            document.getElementById('experience-position-2').textContent = experiencePosition2;
+            document.getElementById('experience-company-2').textContent = experienceCompany2;
+            document.getElementById('experience-duration-2').textContent = experienceDuration2;
+            document.getElementById('experience-description-2-1').textContent = `• ${experienceDescription2_1}`;
+            document.getElementById('experience-description-2-2').textContent = `• ${experienceDescription2_2}`;
+            document.getElementById('experience-description-2-3').textContent = `• ${experienceDescription2_3}`;
+
+            // Experience 3
+            document.getElementById('experience-img-3').src = experienceImgSrc3;
+            document.getElementById('experience-img-3').alt = experienceImgAlt3;
+            document.getElementById('experience-position-3').textContent = experiencePosition3;
+            document.getElementById('experience-company-3').textContent = experienceCompany3;
+            document.getElementById('experience-duration-3').textContent = experienceDuration3;
+            document.getElementById('experience-description-3-1').textContent = `• ${experienceDescription3_1}`;
+            document.getElementById('experience-description-3-2').textContent = `• ${experienceDescription3_2}`;
+            document.getElementById('experience-description-3-3').textContent = `• ${experienceDescription3_3}`;
+
+            // Experience 4
+            document.getElementById('experience-img-4').src = experienceImgSrc4;
+            document.getElementById('experience-img-4').alt = experienceImgAlt4;
+            document.getElementById('experience-position-4').textContent = experiencePosition4;
+            document.getElementById('experience-company-4').textContent = experienceCompany4;
+            document.getElementById('experience-duration-4').textContent = experienceDuration4;
+            document.getElementById('experience-description-4-1').textContent = `• ${experienceDescription4_1}`;
+            document.getElementById('experience-description-4-2').textContent = `• ${experienceDescription4_2}`;
+            document.getElementById('experience-description-4-3').textContent = `• ${experienceDescription4_3}`;
+
+            // Experience 5
+            document.getElementById('experience-img-5').src = experienceImgSrc5;
+            document.getElementById('experience-img-5').alt = experienceImgAlt5;
+            document.getElementById('experience-position-5').textContent = experiencePosition5;
+            document.getElementById('experience-company-5').textContent = experienceCompany5;
+            document.getElementById('experience-duration-5').textContent = experienceDuration5;
+            document.getElementById('experience-description-5-1').textContent = `• ${experienceDescription5_1}`;
+            document.getElementById('experience-description-5-2').textContent = `• ${experienceDescription5_2}`;
+            document.getElementById('experience-description-5-3').textContent = `• ${experienceDescription5_3}`;
+
+            // Experience 6
+            document.getElementById('experience-img-6').src = experienceImgSrc6;
+            document.getElementById('experience-img-6').alt = experienceImgAlt6;
+            document.getElementById('experience-position-6').textContent = experiencePosition6;
+            document.getElementById('experience-company-6').textContent = experienceCompany6;
+            document.getElementById('experience-duration-6').textContent = experienceDuration6;
+            document.getElementById('experience-description-6-1').textContent = `• ${experienceDescription6_1}`;
+            document.getElementById('experience-description-6-2').textContent = `• ${experienceDescription6_2}`;
+            document.getElementById('experience-description-6-3').textContent = `• ${experienceDescription6_3}`;
+
+
         });
     </script>
     
@@ -351,7 +417,7 @@
             </section> -->
 
             <!-- Experience section -->
-            <section id="experience" class="container full-height mb-5">
+            <!-- <section id="experience" class="container full-height mb-5">
                 <h2>Professional Experience</h2>
                 <div class="timeline">
                     <div class="timeline-content">
@@ -359,7 +425,187 @@
                         <p>Experience details...</p>
                     </div>
                 </div>
+            </section> -->
+
+            <!-- Experience -->
+            <section id="experience" class="full-height px-lg-5">
+                <div class="container">
+                    <div class="row pb-4" data-aos="fade-up">
+                        <div class="col-lg-8">
+                            <h6 class="text-brand">Experience</h6>
+                            <h1>My Professional Experience</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="main-timeline">
+
+                        <!-- Start experience section -->
+                        <div class="timeline">
+                            <div class="icon"></div>
+                            <div class="date-content">
+                                <div class="date-outer">
+                                    <span class="date">
+                                        <span class="month">
+                                            <!-- <img src="assets/experience/NASA_logo.svg.png" alt="Timeline Placeholder"
+                                                class="timeline-img rounded-circle" width="20" height="20"> -->
+                                            <img id="experience-img-1" class="timeline-img rounded-circle" width="20" height="20">
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <!-- <h5 class="title">Position and Company</h5>
+                                <h6 class="title">(Start Month - End Month / Present)</h6>
+                                <p class="description">
+                                    &bull; Key point one.<br>
+                                    &bull; Key point two.
+                                </p> -->
+                                <h5 id="experience-position-1" class="title"></h5>
+                                <h7 id="experience-company-1" class="title"></h7>
+                                <h6 id="experience-duration-1" class="title"></h6>
+                                
+                                <p class="description">
+                                    <span id="experience-description-1-1"></span><br>
+                                    <span id="experience-description-1-2"></span><br>
+                                    <span id="experience-description-1-3"></span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End experience section -->
+
+                        <!-- Start experience section 2 -->
+                        <div class="timeline">
+                            <div class="icon"></div>
+                            <div class="date-content">
+                                <div class="date-outer">
+                                    <span class="date">
+                                        <span class="month">
+                                            <img id="experience-img-2" class="timeline-img rounded-circle" width="20" height="20">
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <h5 id="experience-position-2" class="title"></h5>
+                                <h7 id="experience-company-2" class="title"></h7>
+                                <h6 id="experience-duration-2" cl   ass="title"></h6>
+                                <p class="description">
+                                    <span id="experience-description-2-1"></span><br>
+                                    <span id="experience-description-2-2"></span><br>
+                                    <span id="experience-description-2-3"></span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End experience section 2 -->
+
+                        <!-- Start experience section 3 -->
+                        <div class="timeline">
+                            <div class="icon"></div>
+                            <div class="date-content">
+                                <div class="date-outer">
+                                    <span class="date">
+                                        <span class="month">
+                                            <img id="experience-img-3" class="timeline-img rounded-circle" width="20" height="20">
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <h5 id="experience-position-3" class="title"></h5>
+                                <h7 id="experience-company-3" class="title"></h7>
+                                <h6 id="experience-duration-3" class="title"></h6>
+                                <p class="description">
+                                    <span id="experience-description-3-1"></span><br>
+                                    <span id="experience-description-3-2"></span><br>
+                                    <span id="experience-description-3-3"></span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End experience section 3 -->
+
+                        <!-- Start experience section 4 -->
+                        <div class="timeline">
+                            <div class="icon"></div>
+                            <div class="date-content">
+                                <div class="date-outer">
+                                    <span class="date">
+                                        <span class="month">
+                                            <img id="experience-img-4" class="timeline-img rounded-circle" width="20" height="20">
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <h5 id="experience-position-4" class="title"></h5>
+                                <h7 id="experience-company-4" class="title"></h7>
+                                <h6 id="experience-duration-4" class="title"></h6>
+                                <p class="description">
+                                    <span id="experience-description-4-1"></span><br>
+                                    <span id="experience-description-4-2"></span><br>
+                                    <span id="experience-description-4-3"></span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End experience section 4 -->
+
+                        <!-- Start experience section 5 -->
+                        <div class="timeline">
+                            <div class="icon"></div>
+                            <div class="date-content">
+                                <div class="date-outer">
+                                    <span class="date">
+                                        <span class="month">
+                                            <img id="experience-img-5" class="timeline-img rounded-circle" width="20" height="20">
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <h5 id="experience-position-5" class="title"></h5>
+                                <h7 id="experience-company-5" class="title"></h7>
+                                <h6 id="experience-duration-5" class="title"></h6>
+                                <p class="description">
+                                    <span id="experience-description-5-1"></span><br>
+                                    <span id="experience-description-5-2"></span><br>
+                                    <span id="experience-description-5-3"></span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End experience section 5 -->
+
+                        <!-- Start experience section 6 -->
+                        <div class="timeline">
+                            <div class="icon"></div>
+                            <div class="date-content">
+                                <div class="date-outer">
+                                    <span class="date">
+                                        <span class="month">
+                                            <img id="experience-img-6" class="timeline-img rounded-circle" width="20" height="20">
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <h5 id="experience-position-6" class="title"></h5>
+                                <h7 id="experience-company-6" class="title"></h7>
+                                <h6 id="experience-duration-6" class="title"></h6>
+                                <p class="description">
+                                    <span id="experience-description-6-1"></span><br>
+                                    <span id="experience-description-6-2"></span><br>
+                                    <span id="experience-description-6-3"></span>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- End experience section 6 -->
+
+                    </div>
+                </div>
             </section>
+
+
+
 
             <!-- Highlights section -->
             <section id="highlights" class="container full-height mb-5">
