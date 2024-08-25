@@ -17,9 +17,16 @@ const sectionHomeDescription = "Description and experience.";
 const projectTitle1 = "Minimalist To-Do List Android Application";
 const projectTitle2 = "Built a Chess AI using Python";
 const projectTitle3 = "Training Machine Learning Agents to Navigate an Obstacle Course in Unity using C# and Python";
-const projectTitle4 = "...";
-const projectTitle5 = "...";
-const projectTitle6 = "...";
+const projectTitle4 = "Bodega Web Application using ReactJS and MySQL";
+const projectTitle5 = "Amazon Product Recommendation: Using Data Mining to Compare Amazon Ratings to Customer Sentiment";
+const projectTitle6 = "Machine Learning to Assist with Predicting Stock Market Prices";
+const projectTitle7 = "Web Application Project Literature-Film Hub built using AngularJS and ASP.NET";
+const projectTitle8 = "3D Roadside Vehicle Detection in Traffic Flow Monitoring using Complex YOLO";
+const projectTitle9 = "Unity Light Types Project";
+
+// const projectTitle10 = "Compare DFAs Project: Checking DFA Equivalence Checker using DFA Minimization and Interactive DFA Creator UI";
+// const projectTitle11 = "Display Dictionary Information in Detail screen, Android platform";
+// const projectTitle12 = "";
 
 // Project Descriptions
 const projectDescription1 = "This application focuses on providing a simple and intuitive interface for managing daily tasks, "
@@ -32,27 +39,60 @@ const projectDescription3 = "This Machine Learning (ML) agent project uses compu
 "learning to train an agent to navigate obstacles and reach a goal. The agents learns autonomously through trial and error, guided by incremental "
 + "rewards and penalties, within the Unity Game Engine and programmed in C# and Python.";
 
-const projectDescription4 = "...";
+const projectDescription4 = "The Bodega Web Application is designed to provide services for both customers and CFOs (Cottage Food Operators). "
++ "CFOs will have the ability to create profiles to promote their businesses, allowing them to connect with customers who are interested in supporting "
++ "their local community. The goal of Bodega is to create a platform for CFOs to showcase their businesses and provide a gateway for promotion, as small, "
++ "home-operated businesses may not always receive the same level of visibility as larger, processed corporations. Bodega aims to bridge this gap and help CFOs "
++ "connect with potential customers.";
 
-const projectDescription5 = "...";
+const projectDescription5 = "Online shopping has radically changed the way people shop today. This project aims to improve the usability of the Amazon store "
++ "page by scraping the data found on Amazon to filter out all of the extra information and try to find the products with the best value based on existing "
++ "user reviews and price. Using R to create a product recommendation system. This system will use a web crawler to collect data from Amazon's webstore. Our "
++ "crawler will crawl every product page in a product category to gather data including product names, categories, prices, user reviews and ratings. The data " 
++ "collected is then cleaned and the reviews processed using sentiment analysis to give the product a sentiment score. A recommendation will be made to identify "
++ "the best product in that product category.";
 
-const projectDescription6 = "...";
+const projectDescription6 = "Can Machine Learning assist with Predicting Stock Market prices? The problem of predicting how the stock market that often benchmarks"
++" the U.S. economy is an essential and significant question posed by many individuals, investment firms, and government institutions. This project uses the following "
++ "Machine Learning algorithms: Regression Trees, Extra Regression Trees, Random Forest, Artificial Neural Network (Recurrent Neural Network) to train models and "
++ "outputting prediction of the S&P 500 index stock can be located by the stock ticker of '^GSPC' on the Yahoo! Finance website.";
+
+const projectDescription7 = "...";
+
+const projectDescription8 = "...";
+
+const projectDescription9 = "...";
+
+// const projectDescription10 = "...";
+// const projectDescription11 = "...";
+// const projectDescription12 = "...";
 
 // Project Images
 // const projectImage1 = "https://via.placeholder.com/150";
 // const projectImage2 = "https://via.placeholder.com/150";
 // const projectImage3 = "https://via.placeholder.com/150";
-const projectImage4 = "https://via.placeholder.com/150";
-const projectImage5 = "https://via.placeholder.com/150";
-const projectImage6 = "https://via.placeholder.com/150";
-
+// const projectImage4 = "https://via.placeholder.com/150";
+// const projectImage5 = "https://via.placeholder.com/150";
+// const projectImage6 = "https://via.placeholder.com/150";
+// const projectImage7 = "https://via.placeholder.com/150";
+// const projectImage8 = "https://via.placeholder.com/150";
+// const projectImage9 = "https://via.placeholder.com/150";
+// const projectImage10 = "https://via.placeholder.com/150";
+// const projectImage11 = "https://via.placeholder.com/150";
+// const projectImage12 = "https://via.placeholder.com/150";
 
 const projectImage1 = "./assets/projects/Icon_Image_Android_ToDoList.jpg";
 const projectImage2 = "./assets/projects/Icon_Image_Python_ChessAI.jpg";
 const projectImage3 = "./assets/projects/Icon_Image_MLAgent_3.jpg";
-// const projectImage4 = "./assets/projects/";
-// const projectImage5 = "./assets/projects/";
-// const projectImage6 = "./assets/projects/";
+const projectImage4 = "./assets/projects/icon_image_general.jpg";
+const projectImage5 = "./assets/projects/icon_image_general.jpg";
+const projectImage6 = "./assets/projects/icon_image_general.jpg";
+const projectImage7 = "./assets/projects/icon_image_general.jpg";
+const projectImage8 = "./assets/projects/icon_image_general.jpg";
+const projectImage9 = "./assets/projects/icon_image_general.jpg";
+// const projectImage10 = "https://via.placeholder.com/150";
+// const projectImage11 = "https://via.placeholder.com/150";
+// const projectImage12 = "https://via.placeholder.com/150";
 
 // Research Section //
 // -------------------------------- //
