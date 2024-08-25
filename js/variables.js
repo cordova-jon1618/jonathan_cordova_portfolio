@@ -140,20 +140,24 @@ const experienceDescription6_3 = "Successfully manage the Health Net Centene's c
 // Highlight Section //
 // -------------------------------- //
 // Highlight Titles
-const highlightTitle1 = "";
-const highlightTitle2 = "";
-const highlightTitle3 = "";
+const highlightTitle1 = "President (Chair) of the Association for Computing Machinery (ACM) Chapter at California State University, Northridge (CSUN)";
+const highlightTitle2 = "Research Mentor for the National Science Foundation (NSF) funded Research Experience for Undergraduates (REU) program at California State University, Northridge (CSUN)";
+const highlightTitle3 = "My Thesis in CSU ScholarWork: 3D Roadside Vehicle Detection In Traffic Flow Monitoring Using Complex YOLO";
 
 // Highlight Descriptions
-const highlightDescription1 = "";
-const highlightDescription2 = "";
-const highlightDescription3 = "";
+const highlightDescription1 = "As President (Chair) of the ACM Chapter at CSUN, led the revitalization of the previously dormant organization. "
++"Implemented structured weekly meetings, delegated officer responsibilities, and developed strategic plans to ensure the chapter's smooth operation. "
++ "Leadership responsibilities included preparing detailed reports, planning and executing events, and logging activities to track progress.";
+const highlightDescription2 = "Research Mentor for the 'Machine Learning-Based Energy-efficient Workload Management for Data Centers' Research Project sponsored by the National Science "
++ "Foundation (NSF). Research Paper published in 2024 IEEE 21st Consumer Communications & Networking Conference (CCNC)";
+const highlightDescription3 = "My Research and Thesis centered on using lidar 3D camera technology to develop machine learning models for roadside vehicle detection "
++ "and classification, aimed at real-time traffic flow monitoring. My paper has been submitted for resarch publication to the 23rd IEEE International Conference on Machine Learning and Applications";
 
 // Highlight Images
-const highlightImage1 = "https://via.placeholder.com/150";
-const highlightImage2 = "https://via.placeholder.com/150";
-const highlightImage3 = "https://via.placeholder.com/150";
+// const highlightImage1 = "https://via.placeholder.com/150";
+// const highlightImage2 = "https://via.placeholder.com/150";
+// const highlightImage3 = "https://via.placeholder.com/150";
 
-// const highlightImage1 = "./assets/highlight/";
-// const highlightImage2 = "./assets/highlight/";
-// const highlightImage3 = "./assets/highlight/";
+const highlightImage1 = "./assets/highlights/acm_csun_group_logo.png";
+const highlightImage2 = "./assets/highlights/reu-project1.png";
+const highlightImage3 = "./assets/highlights/thesis_page_image.png";
