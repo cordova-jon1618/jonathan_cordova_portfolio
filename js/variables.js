@@ -17,6 +17,9 @@ const sectionHomeDescription = "Description and experience.";
 const projectTitle1 = "Minimalist To-Do List Android Application";
 const projectTitle2 = "Built a Chess AI using Python";
 const projectTitle3 = "Training Machine Learning Agents to Navigate an Obstacle Course in Unity using C# and Python";
+const projectTitle4 = "...";
+const projectTitle5 = "...";
+const projectTitle6 = "...";
 
 // Project Descriptions
 const projectDescription1 = "This application focuses on providing a simple and intuitive interface for managing daily tasks, "
@@ -29,14 +32,27 @@ const projectDescription3 = "This Machine Learning (ML) agent project uses compu
 "learning to train an agent to navigate obstacles and reach a goal. The agents learns autonomously through trial and error, guided by incremental "
 + "rewards and penalties, within the Unity Game Engine and programmed in C# and Python.";
 
+const projectDescription4 = "...";
+
+const projectDescription5 = "...";
+
+const projectDescription6 = "...";
+
 // Project Images
 // const projectImage1 = "https://via.placeholder.com/150";
 // const projectImage2 = "https://via.placeholder.com/150";
 // const projectImage3 = "https://via.placeholder.com/150";
+const projectImage4 = "https://via.placeholder.com/150";
+const projectImage5 = "https://via.placeholder.com/150";
+const projectImage6 = "https://via.placeholder.com/150";
+
 
 const projectImage1 = "./assets/projects/Icon_Image_Android_ToDoList.jpg";
 const projectImage2 = "./assets/projects/Icon_Image_Python_ChessAI.jpg";
 const projectImage3 = "./assets/projects/Icon_Image_MLAgent_3.jpg";
+// const projectImage4 = "./assets/projects/";
+// const projectImage5 = "./assets/projects/";
+// const projectImage6 = "./assets/projects/";
 
 // Research Section //
 // -------------------------------- //
@@ -151,7 +167,7 @@ const highlightDescription1 = "As President (Chair) of the ACM Chapter at CSUN, 
 const highlightDescription2 = "Research Mentor for the 'Machine Learning-Based Energy-efficient Workload Management for Data Centers' Research Project sponsored by the National Science "
 + "Foundation (NSF). Research Paper published in 2024 IEEE 21st Consumer Communications & Networking Conference (CCNC)";
 const highlightDescription3 = "My Research and Thesis centered on using lidar 3D camera technology to develop machine learning models for roadside vehicle detection "
-+ "and classification, aimed at real-time traffic flow monitoring. My paper has been submitted for resarch publication to the 23rd IEEE International Conference on Machine Learning and Applications";
++ "and classification, aimed at real-time traffic flow monitoring. My paper has been submitted for research publication to the 23rd IEEE International Conference on Machine Learning and Applications";
 
 // Highlight Images
 // const highlightImage1 = "https://via.placeholder.com/150";
