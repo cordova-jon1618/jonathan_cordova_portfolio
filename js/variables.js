@@ -22,11 +22,11 @@ const projectTitle5 = "Amazon Product Recommendation: Using Data Mining and ML C
 const projectTitle6 = "Machine Learning Algorithms to Predict Future Stock Market Prices";
 const projectTitle7 = "Web Application Project Literature-Film Hub built using AngularJS and ASP.NET";
 const projectTitle8 = "Unity Light Types Project";
-const projectTitle9 = "3D Roadside Vehicle Detection in Traffic Flow Monitoring using Complex YOLO";
 
-const projectTitle10 = "Compare DFAs Project: Checking DFA Equivalence Checker using DFA Minimization and Interactive DFA Creator UI";
-const projectTitle11 = "Display Dictionary Information in Detail screen, Android platform";
-const projectTitle12 = "Algorithms";
+const projectTitle9 = "Compare DFAs Project: Checking DFA Equivalence Checker using DFA Minimization and Interactive DFA Creator UI";
+const projectTitle10 = "Display Dictionary Information in Detail screen, Android platform";
+const projectTitle11 = "Cellular Automata Program (Rule 30) Built using the C Language";
+const projectTitle12 = "Real-Time Traffic Flow Monitoring using 2D and 3D Machine Learning Models for Roadside Vehicle Detection and Classification";
 
 // Project Descriptions
 const projectDescription1 = "This application focuses on providing a simple and intuitive interface for managing daily tasks, "
@@ -62,13 +62,17 @@ const projectDescription7 = "Web application built for hosting Literature and Fi
 
 const projectDescription8 = "Using Unity, different lights scenes were built and explored.";
 
-const projectDescription9 = "Part of my research and thesis, this project is 3D machine learning models to detect vehicles and classify vehicle types in 3D LiDAR"
-+ " point cloud data. Applying 3D vehicle detection and classification models on real-time LiDAR point cloud traffic flow and output vehicle detection and "
+const projectDescription9 = "Compare DFAs Project: Checking DFA Equivalence Checker using DFA Minimization and Interactive DFA Creator UI";
+
+const projectDescription10 = "Display Dictionary Information in Detail screen, Android platform";
+
+const projectDescription11 = "Cellular Automata Program (Rule 30) Built using the C Language";
+
+const projectDescription12 = "Part of my research and thesis, this project is both 2D and 3D machine learning models to detect vehicles and classify vehicle types in 3D LiDAR"
++ " point cloud data. Applying 2D and 3D vehicle detection and classification models on real-time LiDAR point cloud traffic flow and output vehicle detection and "
 + "classification results, including vehicle types and coordinates.";
 
-const projectDescription10 = "...";
-const projectDescription11 = "...";
-const projectDescription12 = "...";
+
 
 // Project Images
 // const projectImage1 = "https://via.placeholder.com/150";
@@ -92,10 +96,10 @@ const projectImage5 = "./assets/projects/Icon_Image_amazon_data_mining_prelim.jp
 const projectImage6 = "./assets/projects/Icon_Image_ML_Stock_Price_Pred.jpg";
 const projectImage7 = "./assets/projects/Icon_Image_litfilm_Web_App.jpg";
 const projectImage8 = "./assets/projects/Icon_Image_Unity_Lights.jpg";
-const projectImage9 = "./assets/projects/icon_image_general.jpg";
-const projectImage10 = "https://via.placeholder.com/150";
-const projectImage11 = "https://via.placeholder.com/150";
-const projectImage12 = "https://via.placeholder.com/150";
+const projectImage9 = "./assets/projects/Icon_Image_dfa_checker_react.jpg";
+const projectImage10 = "./assets/projects/Icon_Image_dict_android_app.jpg";
+const projectImage11 = "./assets/projects/Icon_Image_cellular_automata_c.jpg";
+const projectImage12 = "./assets/projects/Icon_Image_RTTM_Project.jpg";
 
 // Research Section //
 // -------------------------------- //
