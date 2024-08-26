@@ -57,11 +57,14 @@ const projectDescription6 = "Can Machine Learning assist with Predicting Stock M
 + "Machine Learning algorithms: Regression Trees, Extra Regression Trees, Random Forest, Artificial Neural Network (Recurrent Neural Network) to train models and "
 + "outputting prediction of the S&P 500 index stock can be located by the stock ticker of '^GSPC' on the Yahoo! Finance website.";
 
-const projectDescription7 = "...";
+const projectDescription7 = "Web application built for hosting Literature and Film reviews. Database was kept on Amazon AWS. Frontend built with AngularJS and backend "
++ "with ASP.NET. Languages used JavaScript, TypeScript, SQL.";
 
-const projectDescription8 = "...";
+const projectDescription8 = "Part of my research and thesis, this project is 3D machine learning models to detect vehicles and classify vehicle types in 3D LiDAR"
++ " point cloud data. Applying 3D vehicle detection and classification models on real-time LiDAR point cloud traffic flow and output vehicle detection and "
++ "classification results, including vehicle types and coordinates.";
 
-const projectDescription9 = "...";
+const projectDescription9 = "Using Unity, different lights scenes were built and explored.";
 
 // const projectDescription10 = "...";
 // const projectDescription11 = "...";
@@ -196,24 +199,46 @@ const experienceDescription6_3 = "Successfully manage the Health Net Centene's c
 // Highlight Section //
 // -------------------------------- //
 // Highlight Titles
-const highlightTitle1 = "President (Chair) of the Association for Computing Machinery (ACM) Chapter at California State University, Northridge (CSUN)";
-const highlightTitle2 = "Research Mentor for the National Science Foundation (NSF) funded Research Experience for Undergraduates (REU) program at California State University, Northridge (CSUN)";
-const highlightTitle3 = "My Thesis in CSU ScholarWork: 3D Roadside Vehicle Detection In Traffic Flow Monitoring Using Complex YOLO";
+const highlightTitle1 = "ARCS CSUN Research Fellowship";
+const highlightTitle2 = "Graduation with Master of Science with Computer Science";
+const highlightTitle3 = "NASA JPL Visit and Research Presentation.";
+const highlightTitle4 = "President (Chair) of the Association for Computing Machinery (ACM) Chapter at California State University, Northridge (CSUN)";
+const highlightTitle5 = "Research Mentor for the National Science Foundation (NSF) funded Research Experience for Undergraduates (REU) program at California State University, Northridge (CSUN)";
+const highlightTitle6 = "Thesis Published in CSU ScholarWork: 3D Roadside Vehicle Detection In Traffic Flow Monitoring Using Complex YOLO";
+const highlightTitle7 = "Kaggle Competition";
 
 // Highlight Descriptions
-const highlightDescription1 = "As President (Chair) of the ACM Chapter at CSUN, led the revitalization of the previously dormant organization. "
+const highlightDescription1 = "Graduate Fellowship from Autonomy Research Center for STEAHM (ARCS), a NASA-sponsored research fellowship program, a collaborative initiative between CSUN and NASA JPL at "
++ "California State University, Northridge (CSUN) through ARCS"
+const highlightDescription2 = "Graduation with Master of Science with Computer Science, May 2024"
+const highlightDescription3 = "NASA JPL Visit and Research Presentation."
+const highlightDescription4 = "As President (Chair) of the ACM Chapter at CSUN, led the revitalization of the previously dormant organization. "
 +"Implemented structured weekly meetings, delegated officer responsibilities, and developed strategic plans to ensure the chapter's smooth operation. "
 + "Leadership responsibilities included preparing detailed reports, planning and executing events, and logging activities to track progress.";
-const highlightDescription2 = "Research Mentor for the 'Machine Learning-Based Energy-efficient Workload Management for Data Centers' Research Project sponsored by the National Science "
+const highlightDescription5 = "Research Mentor for the 'Machine Learning-Based Energy-efficient Workload Management for Data Centers' Research Project sponsored by the National Science "
 + "Foundation (NSF). Research Paper published in 2024 IEEE 21st Consumer Communications & Networking Conference (CCNC)";
-const highlightDescription3 = "My Research and Thesis centered on using lidar 3D camera technology to develop machine learning models for roadside vehicle detection "
+const highlightDescription6 = "My Research and Thesis centered on using lidar 3D camera technology to develop machine learning models for roadside vehicle detection "
 + "and classification, aimed at real-time traffic flow monitoring. My paper has been submitted for research publication to the 23rd IEEE International Conference on Machine Learning and Applications";
+const highlightDescription7 = "My team and I develop a neural network model to train amino-acid sequences of proteins to attempt to predict the one-to-many relationship" +
+" between an amino-acid sequence and the various Gene Ontology identifiers (which represent different aspects of the protein's function). Our contribution in this "
++ "competition may one day help researchers better understand the function of proteins, which is important for discovering how cells, tissues, and organs work. "
++ "Overall, our top prediction accuracy score obtained during submission of our trained model was 37.01%. As a team we learned a lot about Natural Language " 
++ "Processing (NLP), explored different encoding models, and learned to build and fine-tune parameters of a convolutional neural network model. "
++ "Though we did not achieve the best possible score in this competition, my team and I developed the skills and discipline to participate in "
++ "future machine learning and data science competitions. Please see below for details regarding this competition."
 
 // Highlight Images
 // const highlightImage1 = "https://via.placeholder.com/150";
 // const highlightImage2 = "https://via.placeholder.com/150";
 // const highlightImage3 = "https://via.placeholder.com/150";
+// const highlightImage4 = "https://via.placeholder.com/150";
+// const highlightImage5 = "https://via.placeholder.com/150";
+// const highlightImage6 = "https://via.placeholder.com/150";
 
-const highlightImage1 = "./assets/highlights/acm_csun_group_logo.png";
-const highlightImage2 = "./assets/highlights/reu-project1.png";
-const highlightImage3 = "./assets/highlights/thesis_page_image.png";
+const highlightImage1 = "./assets/highlights/arcs_fellowship_icon.png";
+const highlightImage2 = "./assets/highlights/graduation_arcs_image.jpg";
+const highlightImage3 = "./assets/highlights/jpl_poster_image_1.jpeg";
+const highlightImage4 = "./assets/highlights/acm_csun_group_logo.png";
+const highlightImage5 = "./assets/highlights/reu-project1.png";
+const highlightImage6 = "./assets/highlights/thesis_page_image.png";
+const highlightImage7 = "./assets/highlights/kaggle_cafa5_icon.png";
