@@ -19,14 +19,14 @@ const projectTitle2 = "Built a Chess AI using Python";
 const projectTitle3 = "Training Machine Learning Agents to Navigate an Obstacle Course in Unity using C# and Python";
 const projectTitle4 = "Bodega Web Application using ReactJS and MySQL";
 const projectTitle5 = "Amazon Product Recommendation: Using Data Mining and ML Classification on Amazon Products for Price and Sentiment-Based Product Recommendations";
-const projectTitle6 = "Machine Learning to Assist with Predicting Stock Market Prices";
+const projectTitle6 = "Machine Learning Algorithms to Predict Future Stock Market Prices";
 const projectTitle7 = "Web Application Project Literature-Film Hub built using AngularJS and ASP.NET";
-const projectTitle8 = "3D Roadside Vehicle Detection in Traffic Flow Monitoring using Complex YOLO";
-const projectTitle9 = "Unity Light Types Project";
+const projectTitle8 = "Unity Light Types Project";
+const projectTitle9 = "3D Roadside Vehicle Detection in Traffic Flow Monitoring using Complex YOLO";
 
-// const projectTitle10 = "Compare DFAs Project: Checking DFA Equivalence Checker using DFA Minimization and Interactive DFA Creator UI";
-// const projectTitle11 = "Display Dictionary Information in Detail screen, Android platform";
-// const projectTitle12 = "";
+const projectTitle10 = "Compare DFAs Project: Checking DFA Equivalence Checker using DFA Minimization and Interactive DFA Creator UI";
+const projectTitle11 = "Display Dictionary Information in Detail screen, Android platform";
+const projectTitle12 = "Algorithms";
 
 // Project Descriptions
 const projectDescription1 = "This application focuses on providing a simple and intuitive interface for managing daily tasks, "
@@ -60,15 +60,15 @@ const projectDescription6 = "Can Machine Learning assist with Predicting Stock M
 const projectDescription7 = "Web application built for hosting Literature and Film reviews. Database was kept on Amazon AWS. Frontend built with AngularJS and backend "
 + "with ASP.NET. Languages used JavaScript, TypeScript, SQL.";
 
-const projectDescription8 = "Part of my research and thesis, this project is 3D machine learning models to detect vehicles and classify vehicle types in 3D LiDAR"
+const projectDescription8 = "Using Unity, different lights scenes were built and explored.";
+
+const projectDescription9 = "Part of my research and thesis, this project is 3D machine learning models to detect vehicles and classify vehicle types in 3D LiDAR"
 + " point cloud data. Applying 3D vehicle detection and classification models on real-time LiDAR point cloud traffic flow and output vehicle detection and "
 + "classification results, including vehicle types and coordinates.";
 
-const projectDescription9 = "Using Unity, different lights scenes were built and explored.";
-
-// const projectDescription10 = "...";
-// const projectDescription11 = "...";
-// const projectDescription12 = "...";
+const projectDescription10 = "...";
+const projectDescription11 = "...";
+const projectDescription12 = "...";
 
 // Project Images
 // const projectImage1 = "https://via.placeholder.com/150";
@@ -90,12 +90,12 @@ const projectImage3 = "./assets/projects/Icon_Image_MLAgent_3.jpg";
 const projectImage4 = "./assets/projects/Icon_Image_Bodega_Web_App.jpg";
 const projectImage5 = "./assets/projects/Icon_Image_amazon_data_mining_prelim.jpg";
 const projectImage6 = "./assets/projects/Icon_Image_ML_Stock_Price_Pred.jpg";
-const projectImage7 = "./assets/projects/icon_image_general.jpg";
-const projectImage8 = "./assets/projects/icon_image_general.jpg";
+const projectImage7 = "./assets/projects/Icon_Image_litfilm_Web_App.jpg";
+const projectImage8 = "./assets/projects/Icon_Image_Unity_Lights.jpg";
 const projectImage9 = "./assets/projects/icon_image_general.jpg";
-// const projectImage10 = "https://via.placeholder.com/150";
-// const projectImage11 = "https://via.placeholder.com/150";
-// const projectImage12 = "https://via.placeholder.com/150";
+const projectImage10 = "https://via.placeholder.com/150";
+const projectImage11 = "https://via.placeholder.com/150";
+const projectImage12 = "https://via.placeholder.com/150";
 
 // Research Section //
 // -------------------------------- //
@@ -105,10 +105,10 @@ const researchTitle2 = "ARCS at CSUN: 3D Object Detection and Vehicle Classifica
 const researchTitle3 = "3D Vehicle Detection in Roadside Traffic Flow using Complex-YOLO";
 
 // Research Descriptions
-const researchDescription1 = "IEEE Publication 2023";
+const researchDescription1 = "IEEE Publication 2024";
 const researchDescription2 = "Fellowship through Autonomy Research Center for STEAHM (ARCS) at "
 + "California State University, Northridge (CSUN), a NASA-sponsored project in collaboration with NASA's Jet Propulsion Laboratory (JPL).";
-const researchDescription3 = "IEEE Publication 2024";
+const researchDescription3 = "Double Blind Review for IEEE Publication submitted in 2024";
 
 // Research Images
 // const researchImage1 = "https://via.placeholder.com/150";
