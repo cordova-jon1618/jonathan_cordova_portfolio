@@ -103,18 +103,18 @@ const projectImage12 = "./assets/projects/Icon_Image_RTTM_Project.jpg";
 
 
 // Project Links
-const projectLink1 = "#";
-const projectLink2 = "#";
-const projectLink3 = "#";
-const projectLink4 = "#";
-const projectLink5 = "#";
-const projectLink6 = "#";
-const projectLink7 = "#";
-const projectLink8 = "#";
-const projectLink9 = "#";
+const projectLink1 = "https://github.com/cordova-jon1618/minimalist-to-do-list-android-application-project";
+const projectLink2 = "https://github.com/cordova-jon1618/chess-ai-python-project";
+const projectLink3 = "https://github.com/cordova-jon1618/ml-agent-in-unity-project";
+const projectLink4 = "https://github.com/cordova-jon1618/Bodega-Web-Application";
+const projectLink5 = "https://github.com/cordova-jon1618/amazon-product-recommendation-project";
+const projectLink6 = "https://github.com/cordova-jon1618/stock-prediction-project-using-machine-learning";
+const projectLink7 = "https://github.com/cordova-jon1618/Web-Application-AngularJS-Frontend-LitFilmHub";
+const projectLink8 = "https://github.com/cordova-jon1618/unity-light-types-project";
+const projectLink9 = "https://github.com/cordova-jon1618/compare-dfa/tree/develop";
 const projectLink10 = "#";
 const projectLink11 = "#";
-const projectLink12 = "#";
+const projectLink12 = "https://github.com/cordova-jon1618/Custom-Dataset-Complex-YOLOv4-Pytorch-3-Classes";
 
 
 // Research Section //
@@ -140,9 +140,9 @@ const researchImage2 = "./assets/research/icon_image_research_2_arcs.jpg";
 const researchImage3 = "./assets/research/icon_image_research_3_complexyolo.jpg";
 
 // Research Links
-const researchLink1 = "#";
-const researchLink2 = "#";
-const researchLink3 = "#";
+const researchLink1 = "https://ieeexplore.ieee.org/document/10454842";
+const researchLink2 = "https://arcs.center/3d-object-detection-and-vehicle-classification-based-on-lidar-point-clouds-for-real-time-traffic-flow-monitoring/";
+const researchLink3 = "https://arcs.center/3d-object-detection-and-vehicle-classification-based-on-lidar-point-clouds-for-real-time-traffic-flow-monitoring/";
 
 
 // Experience Section //
@@ -271,10 +271,10 @@ const highlightImage7 = "./assets/highlights/kaggle_cafa5_icon.png";
 
 
 // HighlightLinks
-const highlightLink1 = "#";
-const highlightLink2 = "#";
-const highlightLink3 = "#";
-const highlightLink4 = "#";
-const highlightLink5 = "#";
-const highlightLink6 = "#";
-const highlightLink7 = "#";
+const highlightLink1 = "https://arcs.center/2023-2024-arcs-fellows-associates/";
+const highlightLink2 = "https://w2.csun.edu/";
+const highlightLink3 = "https://www.jpl.nasa.gov/";
+const highlightLink4 = "https://csunacm.org/board.html";
+const highlightLink5 = "https://www.csun.edu/~xjiang/summer_research/summer_2023_wm.html";
+const highlightLink6 = "https://scholarworks.calstate.edu/concern/theses/pv63g706z";
+const highlightLink7 = "https://www.kaggle.com/competitions/cafa-5-protein-function-prediction";
