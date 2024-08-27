@@ -3,8 +3,8 @@
 const firstName = "Jonathan";
 const lastName = "Cordova's";
 const portfolioTitle = `${firstName} ${lastName}\nPortfolio`;  // "Portfolio" on a new line
-const navbarBrandText = "My Name is Jonathan Cordova";
-// const profilePhotoSrc = "../assets/profile_photo.png";
+const navbarBrandText = "";
+const navbarProfileImage = "./assets/profile_photo.png";
 
 // Home Section //
 // -------------------------------- //

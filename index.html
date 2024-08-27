@@ -44,9 +44,11 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            // Correctly setting the inner text using variables from the separate JS file
+
             document.getElementById('portfolioTitle').innerText = portfolioTitle;
             document.getElementById('navbarBrandText').innerText = navbarBrandText;
+            document.getElementById('navbarProfileImage').src = navbarProfileImage;
+
             document.getElementById('sectionHomeTitle').innerText = sectionHomeTitle;
             document.getElementById('sectionHomeDescription').innerText = sectionHomeDescription;
 
@@ -286,9 +288,14 @@
                 <!-- <span id="navbarBrandText" class="h3 fw-bold d-block d-lg-none">My Name</span>  -->
                 <span id="navbarBrandText" class="h3 fw-bold d-block d-lg-none"></span>
 
-                <img id="navbarBrandImage" src="assets/profile_photo.png"
+                <!-- <img id="navbarBrandImage" src="assets/profile_photo.png"
                 class="d-none d-lg-block rounded-circle"
-                alt="Profile Placeholder" style="max-width: 175px; height: auto;">
+                alt="Profile Placeholder" style="max-width: 175px; height: auto;"> -->
+
+                <img id="navbarProfileImage"
+                class="d-none d-lg-block rounded-circle"
+                alt="" style="max-width: 175px; height: auto;">
+
             </a>
                 <ul class="navbar-nav">
                     <li class="nav-item">
