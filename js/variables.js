@@ -25,7 +25,7 @@ const projectTitle8 = "Unity Light Types Project";
 
 const projectTitle9 = "Compare DFAs Project: Checking DFA Equivalence Checker using DFA Minimization and Interactive DFA Creator UI";
 const projectTitle10 = "Display Dictionary Information in Detail screen, Android platform";
-const projectTitle11 = "Cellular Automata Program (Rule 30) Built using the C Language";
+const projectTitle11 = "Cellular Automata Program (Rule 30) Built using MPI in C";
 const projectTitle12 = "Real-Time Traffic Flow Monitoring using 2D and 3D Machine Learning Models for Roadside Vehicle Detection and Classification";
 
 // Project Descriptions
@@ -66,7 +66,7 @@ const projectDescription9 = "Compare DFAs Project: Checking DFA Equivalence Chec
 
 const projectDescription10 = "Display Dictionary Information in Detail screen, Android platform";
 
-const projectDescription11 = "Cellular Automata Program (Rule 30) Built using the C Language";
+const projectDescription11 = "Cellular Automata Program (Rule 30) Built using MPI in C";
 
 const projectDescription12 = "Part of my research and thesis, this project is both 2D and 3D machine learning models to detect vehicles and classify vehicle types in 3D LiDAR"
 + " point cloud data. Applying 2D and 3D vehicle detection and classification models on real-time LiDAR point cloud traffic flow and output vehicle detection and "
@@ -112,8 +112,8 @@ const projectLink6 = "https://github.com/cordova-jon1618/stock-prediction-projec
 const projectLink7 = "https://github.com/cordova-jon1618/Web-Application-AngularJS-Frontend-LitFilmHub";
 const projectLink8 = "https://github.com/cordova-jon1618/unity-light-types-project";
 const projectLink9 = "https://github.com/cordova-jon1618/compare-dfa/tree/develop";
-const projectLink10 = "#";
-const projectLink11 = "#";
+const projectLink10 = "https://github.com/cordova-jon1618/display_dictionary_information_in_detail_screen_android_platform";
+const projectLink11 = "https://github.com/cordova-jon1618/cellular_automata_program_rule_30";
 const projectLink12 = "https://github.com/cordova-jon1618/Custom-Dataset-Complex-YOLOv4-Pytorch-3-Classes";
 
 
