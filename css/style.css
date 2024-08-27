@@ -97,12 +97,8 @@ img {
     margin-bottom: 3rem !important;
 }
 
-/* Card and Carousel Styles */
-.carousel-inner {
-    padding: 1em;
-}
-
-.card {
+/* Card Styles */
+/* .card {
     margin: 0 auto;
     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
     border: none;
@@ -111,46 +107,28 @@ img {
 
 .card:hover {
     transform: translateY(-5px);
+} */
+
+/* Card Styles */
+.card {
+    margin: 0 auto;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    transition: transform 0.3s ease;
+    max-width: 100%;
 }
 
-.carousel-control-prev, .carousel-control-next {
-    background-color: #e1e1e1;
-    width: 6vh;
-    height: 6vh;
-    border-radius: 50%;
-    top: 50%;
-    transform: translateY(-50%);
+.card:hover {
+    transform: translateY(-5px);
 }
 
-@media (min-width: 768px) {
-    .carousel-item {
-        margin-right: 0;
-        flex: 0 0 33.333%;
-        max-width: 33.333%;
-        display: block;
-    }
-    
-    .carousel-inner {
-        display: flex;
-        flex-wrap: nowrap;
-    }
-}
-
+/* Additional styles for small screens */
 @media (max-width: 767px) {
-    .carousel-item {
-        flex: 0 0 100%;
-        max-width: 100%;
-        margin-bottom: 2rem;
+    .card {
+        width: 90%; 
+        margin: 0 auto 1rem auto;
     }
-
-    .carousel-inner {
-        flex-wrap: wrap;
-    }
-
-    .card-custom img {
-        max-width: 100%;
-    }
-}
+} 
 
 /* Highlight Section Styles */
 .list-group-item {
