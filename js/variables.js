@@ -101,6 +101,22 @@ const projectImage10 = "./assets/projects/Icon_Image_dict_android_app.jpg";
 const projectImage11 = "./assets/projects/Icon_Image_cellular_automata_c.jpg";
 const projectImage12 = "./assets/projects/Icon_Image_RTTM_Project.jpg";
 
+
+// Project Links
+const projectLink1 = "#";
+const projectLink2 = "#";
+const projectLink3 = "#";
+const projectLink4 = "#";
+const projectLink5 = "#";
+const projectLink6 = "#";
+const projectLink7 = "#";
+const projectLink8 = "#";
+const projectLink9 = "#";
+const projectLink10 = "#";
+const projectLink11 = "#";
+const projectLink12 = "#";
+
+
 // Research Section //
 // -------------------------------- //
 // Research Titles
@@ -122,6 +138,12 @@ const researchDescription3 = "Double Blind Review for IEEE Publication submitted
 const researchImage1 = "./assets/research/icon_image_research_1_energy.png";
 const researchImage2 = "./assets/research/icon_image_research_2_arcs.jpg";
 const researchImage3 = "./assets/research/icon_image_research_3_complexyolo.jpg";
+
+// Research Links
+const researchLink1 = "#";
+const researchLink2 = "#";
+const researchLink3 = "#";
+
 
 // Experience Section //
 // -------------------------------- //
@@ -246,3 +268,13 @@ const highlightImage4 = "./assets/highlights/acm_csun_group_logo.png";
 const highlightImage5 = "./assets/highlights/reu-project1.png";
 const highlightImage6 = "./assets/highlights/thesis_page_image.png";
 const highlightImage7 = "./assets/highlights/kaggle_cafa5_icon.png";
+
+
+// HighlightLinks
+const highlightLink1 = "#";
+const highlightLink2 = "#";
+const highlightLink3 = "#";
+const highlightLink4 = "#";
+const highlightLink5 = "#";
+const highlightLink6 = "#";
+const highlightLink7 = "#";
