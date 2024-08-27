@@ -106,24 +106,6 @@
             document.getElementById('projectLink12').href = projectLink12;
 
 
-            // Research Section
-            // -------------------------------------------
-            document.getElementById('researchTitle1').innerText = researchTitle1;
-            document.getElementById('researchTitle2').innerText = researchTitle2;
-            document.getElementById('researchTitle3').innerText = researchTitle3;
-
-            document.getElementById('researchDescription1').innerText = researchDescription1;
-            document.getElementById('researchDescription2').innerText = researchDescription2;
-            document.getElementById('researchDescription3').innerText = researchDescription3;
-
-            document.getElementById('researchImage1').src = researchImage1;
-            document.getElementById('researchImage2').src = researchImage2;
-            document.getElementById('researchImage3').src = researchImage3;
-
-            document.getElementById('researchLink1').href = researchLink1;
-            document.getElementById('researchLink2').href = researchLink2;
-            document.getElementById('researchLink3').href = researchLink3;
-
 
             // Experience Section
             // -------------------------------------------
@@ -224,6 +206,26 @@
             document.getElementById('highlightLink7').href = highlightLink7;
 
 
+            // Research Section
+            // -------------------------------------------
+            document.getElementById('researchTitle1').innerText = researchTitle1;
+            document.getElementById('researchTitle2').innerText = researchTitle2;
+            document.getElementById('researchTitle3').innerText = researchTitle3;
+
+            document.getElementById('researchDescription1').innerText = researchDescription1;
+            document.getElementById('researchDescription2').innerText = researchDescription2;
+            document.getElementById('researchDescription3').innerText = researchDescription3;
+
+            document.getElementById('researchImage1').src = researchImage1;
+            document.getElementById('researchImage2').src = researchImage2;
+            document.getElementById('researchImage3').src = researchImage3;
+
+            document.getElementById('researchLink1').href = researchLink1;
+            document.getElementById('researchLink2').href = researchLink2;
+            document.getElementById('researchLink3').href = researchLink3;
+
+
+
         });
     </script>
     
@@ -289,13 +291,13 @@
                         <a class="nav-link" href="#project">Project</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#research">Research</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#experience">Experience</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#highlights">Highlights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#research">Research</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
@@ -546,55 +548,6 @@
 
             </section>
 
-
-            <!-- Research Section-->
-            <section id="research" class="container full-height mb-5">
-                <h2>Research</h2>
-                
-                <div class="row">
-                    <!-- Row 1 -->
-                    <div class="col-md-4">
-                        <!-- <div class="card" style="width: 18rem;"> -->
-                        <div class="card" style="width: 25rem;">
-                            <!-- <img src="https://via.placeholder.com/150" class="card-img-top rounded" alt="Research Image 1"> -->
-                            <img id="researchImage1" class="card-img-top rounded" alt="Research Image 1">
-                            <div class="card-body">
-                                <!-- <h5 class="card-title">Research Title 1</h5>
-                                <p class="card-text">Research Details 1...</p> -->
-                                <h5 id="researchTitle1" class="card-title"></h5>
-                                <p id="researchDescription1" class="card-text"></p>
-                                <a id="researchLink1" href="#" class="btn btn-primary" target="_blank">Learn More...</a> 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card" style="width: 25rem;">
-                            <!-- <img src="https://via.placeholder.com/150" class="card-img-top rounded" alt="Research Image 2"> -->
-                            <img id="researchImage2" class="card-img-top rounded" alt="Research Image 2">
-                            <div class="card-body">
-                                <!-- <h5 class="card-title">Research Title 2</h5>
-                                <p class="card-text">Research Details 2...</p> -->
-                                <h5 id="researchTitle2" class="card-title"></h5>
-                                <p id="researchDescription2" class="card-text"></p>
-                                <a id="researchLink2" href="#" class="btn btn-primary" target="_blank">Learn More...</a> 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card" style="width: 25rem;">
-                            <!-- <img src="https://via.placeholder.com/150" class="card-img-top rounded" alt="Research Image 3"> -->
-                            <img id="researchImage3" class="card-img-top rounded" alt="Research Image 3">
-                            <div class="card-body">
-                                <!-- <h5 class="card-title">Research Title 3</h5>
-                                <p class="card-text">Research Details 3...</p> -->
-                                <h5 id="researchTitle3" class="card-title"></h5>
-                                <p id="researchDescription3" class="card-text"></p>
-                                <a id="researchLink3" href="#" class="btn btn-primary" target="_blank">Learn More...</a> 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
             <!-- Skill section -->
             <!-- <section id="skills" class="container full-height">
@@ -893,6 +846,56 @@
                     </div>
                 </div>
             </section>
+
+            <!-- Research Section-->
+            <section id="research" class="container full-height mb-5">
+                <h2>Research</h2>
+                
+                <div class="row">
+                    <!-- Row 1 -->
+                    <div class="col-md-4">
+                        <!-- <div class="card" style="width: 18rem;"> -->
+                        <div class="card" style="width: 25rem;">
+                            <!-- <img src="https://via.placeholder.com/150" class="card-img-top rounded" alt="Research Image 1"> -->
+                            <img id="researchImage1" class="card-img-top rounded" alt="Research Image 1">
+                            <div class="card-body">
+                                <!-- <h5 class="card-title">Research Title 1</h5>
+                                <p class="card-text">Research Details 1...</p> -->
+                                <h5 id="researchTitle1" class="card-title"></h5>
+                                <p id="researchDescription1" class="card-text"></p>
+                                <a id="researchLink1" href="#" class="btn btn-primary" target="_blank">Learn More...</a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 25rem;">
+                            <!-- <img src="https://via.placeholder.com/150" class="card-img-top rounded" alt="Research Image 2"> -->
+                            <img id="researchImage2" class="card-img-top rounded" alt="Research Image 2">
+                            <div class="card-body">
+                                <!-- <h5 class="card-title">Research Title 2</h5>
+                                <p class="card-text">Research Details 2...</p> -->
+                                <h5 id="researchTitle2" class="card-title"></h5>
+                                <p id="researchDescription2" class="card-text"></p>
+                                <a id="researchLink2" href="#" class="btn btn-primary" target="_blank">Learn More...</a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 25rem;">
+                            <!-- <img src="https://via.placeholder.com/150" class="card-img-top rounded" alt="Research Image 3"> -->
+                            <img id="researchImage3" class="card-img-top rounded" alt="Research Image 3">
+                            <div class="card-body">
+                                <!-- <h5 class="card-title">Research Title 3</h5>
+                                <p class="card-text">Research Details 3...</p> -->
+                                <h5 id="researchTitle3" class="card-title"></h5>
+                                <p id="researchDescription3" class="card-text"></p>
+                                <a id="researchLink3" href="#" class="btn btn-primary" target="_blank">Learn More...</a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
 
             <!-- About section -->
             <section id="about" class="container full-height mb-5">

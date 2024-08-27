@@ -117,33 +117,6 @@ const projectLink11 = "https://github.com/cordova-jon1618/cellular_automata_prog
 const projectLink12 = "https://github.com/cordova-jon1618/Custom-Dataset-Complex-YOLOv4-Pytorch-3-Classes";
 
 
-// Research Section //
-// -------------------------------- //
-// Research Titles
-const researchTitle1 = "Energy-efficient Workload Management in Datacenters";
-const researchTitle2 = "ARCS at CSUN: 3D Object Detection and Vehicle Classification based on LiDAR Point Clouds for Real-time Traffic Flow Monitoring";
-const researchTitle3 = "3D Vehicle Detection in Roadside Traffic Flow using Complex-YOLO";
-
-// Research Descriptions
-const researchDescription1 = "IEEE Publication 2024";
-const researchDescription2 = "Fellowship through Autonomy Research Center for STEAHM (ARCS) at "
-+ "California State University, Northridge (CSUN), a NASA-sponsored project in collaboration with NASA's Jet Propulsion Laboratory (JPL).";
-const researchDescription3 = "Double Blind Review for IEEE Publication submitted in 2024";
-
-// Research Images
-// const researchImage1 = "https://via.placeholder.com/150";
-// const researchImage2 = "https://via.placeholder.com/150";
-// const researchImage3 = "https://via.placeholder.com/150";
-
-const researchImage1 = "./assets/research/icon_image_research_1_energy.png";
-const researchImage2 = "./assets/research/icon_image_research_2_arcs.jpg";
-const researchImage3 = "./assets/research/icon_image_research_3_complexyolo.jpg";
-
-// Research Links
-const researchLink1 = "https://ieeexplore.ieee.org/document/10454842";
-const researchLink2 = "https://arcs.center/3d-object-detection-and-vehicle-classification-based-on-lidar-point-clouds-for-real-time-traffic-flow-monitoring/";
-const researchLink3 = "https://arcs.center/3d-object-detection-and-vehicle-classification-based-on-lidar-point-clouds-for-real-time-traffic-flow-monitoring/";
-
 
 // Experience Section //
 // -------------------------------- //
@@ -278,3 +251,31 @@ const highlightLink4 = "https://csunacm.org/board.html";
 const highlightLink5 = "https://www.csun.edu/~xjiang/summer_research/summer_2023_wm.html";
 const highlightLink6 = "https://scholarworks.calstate.edu/concern/theses/pv63g706z";
 const highlightLink7 = "https://www.kaggle.com/competitions/cafa-5-protein-function-prediction";
+
+
+// Research Section //
+// -------------------------------- //
+// Research Titles
+const researchTitle1 = "Energy-efficient Workload Management in Datacenters";
+const researchTitle2 = "ARCS at CSUN: 3D Object Detection and Vehicle Classification based on LiDAR Point Clouds for Real-time Traffic Flow Monitoring";
+const researchTitle3 = "3D Vehicle Detection in Roadside Traffic Flow using Complex-YOLO";
+
+// Research Descriptions
+const researchDescription1 = "IEEE Publication 2024";
+const researchDescription2 = "Fellowship through Autonomy Research Center for STEAHM (ARCS) at "
++ "California State University, Northridge (CSUN), a NASA-sponsored project in collaboration with NASA's Jet Propulsion Laboratory (JPL).";
+const researchDescription3 = "Double Blind Review for IEEE Publication submitted in 2024";
+
+// Research Images
+// const researchImage1 = "https://via.placeholder.com/150";
+// const researchImage2 = "https://via.placeholder.com/150";
+// const researchImage3 = "https://via.placeholder.com/150";
+
+const researchImage1 = "./assets/research/icon_image_research_1_energy.png";
+const researchImage2 = "./assets/research/icon_image_research_2_arcs.jpg";
+const researchImage3 = "./assets/research/icon_image_research_3_complexyolo.jpg";
+
+// Research Links
+const researchLink1 = "https://ieeexplore.ieee.org/document/10454842";
+const researchLink2 = "https://arcs.center/3d-object-detection-and-vehicle-classification-based-on-lidar-point-clouds-for-real-time-traffic-flow-monitoring/";
+const researchLink3 = "https://arcs.center/3d-object-detection-and-vehicle-classification-based-on-lidar-point-clouds-for-real-time-traffic-flow-monitoring/";
