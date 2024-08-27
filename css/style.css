@@ -131,6 +131,12 @@ img {
     margin: 0;    /* Reset margin if necessary */
 }
 
+.invisible-card {
+    opacity: 0; /* Makes the card invisible */
+    visibility: hidden; /* Ensures the card is not interactable */
+}
+
+
 /* Additional styles for small screens */
 @media (max-width: 767px) {
     .card {

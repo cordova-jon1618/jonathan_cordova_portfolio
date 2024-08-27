@@ -205,6 +205,9 @@ const highlightTitle4 = "President (Chair) of the Association for Computing Mach
 const highlightTitle5 = "Research Mentor for the National Science Foundation (NSF) funded Research Experience for Undergraduates (REU) program at California State University, Northridge (CSUN)";
 const highlightTitle6 = "Thesis Published in CSU ScholarWork: 3D Roadside Vehicle Detection In Traffic Flow Monitoring Using Complex YOLO";
 const highlightTitle7 = "Kaggle Competition";
+const highlightTitle8 = "...";
+const highlightTitle9 = "...";
+
 
 // Highlight Descriptions
 const highlightDescription1 = "Graduate Fellowship from Autonomy Research Center for STEAHM (ARCS), a NASA-sponsored research fellowship program, a collaborative initiative between CSUN and NASA JPL at "
@@ -225,6 +228,9 @@ const highlightDescription7 = "My team and I develop a neural network model to t
 + "Processing (NLP), explored different encoding models, and learned to build and fine-tune parameters of a convolutional neural network model. "
 + "Though we did not achieve the best possible score in this competition, my team and I developed the skills and discipline to participate in "
 + "future machine learning and data science competitions. Please see below for details regarding this competition."
+const highlightDescription8 = "..."
+const highlightDescription9 = "..."
+
 
 // Highlight Images
 // const highlightImage1 = "https://via.placeholder.com/150";
@@ -233,6 +239,9 @@ const highlightDescription7 = "My team and I develop a neural network model to t
 // const highlightImage4 = "https://via.placeholder.com/150";
 // const highlightImage5 = "https://via.placeholder.com/150";
 // const highlightImage6 = "https://via.placeholder.com/150";
+// const highlightImage7 = "https://via.placeholder.com/150";
+// const highlightImage8 = "https://via.placeholder.com/150";
+// const highlightImage9 = "https://via.placeholder.com/150";
 
 const highlightImage1 = "./assets/highlights/arcs_fellowship_icon.png";
 const highlightImage2 = "./assets/highlights/graduation_arcs_image.jpg";
@@ -241,7 +250,8 @@ const highlightImage4 = "./assets/highlights/acm_csun_group_logo.png";
 const highlightImage5 = "./assets/highlights/reu-project1.png";
 const highlightImage6 = "./assets/highlights/thesis_page_image.png";
 const highlightImage7 = "./assets/highlights/kaggle_cafa5_icon.png";
-
+const highlightImage8 = "https://via.placeholder.com/150";
+const highlightImage9 = "https://via.placeholder.com/150";
 
 // HighlightLinks
 const highlightLink1 = "https://arcs.center/2023-2024-arcs-fellows-associates/";
@@ -251,7 +261,8 @@ const highlightLink4 = "https://csunacm.org/board.html";
 const highlightLink5 = "https://www.csun.edu/~xjiang/summer_research/summer_2023_wm.html";
 const highlightLink6 = "https://scholarworks.calstate.edu/concern/theses/pv63g706z";
 const highlightLink7 = "https://www.kaggle.com/competitions/cafa-5-protein-function-prediction";
-
+const highlightLink8 = "#";
+const highlightLink9 = "#";
 
 // Research Section //
 // -------------------------------- //
