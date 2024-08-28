@@ -8,9 +8,11 @@ const navbarProfileImage = "./assets/profile_photo.png";
 
 // Home Section //
 // -------------------------------- //
-const sectionHomeTitle = "Career Portfolio";
-const sectionHomeDescription = "Description and experience.";
-
+const sectionHomeTitle = "Jonathan Cordova's Portfolio";
+const sectionHomeDescription = "I am a Software Engineer based in Los Angeles with a Master of Science in Computer Science from "
++ "California State University, Northridge (CSUN). I specialize in Software Engineering, Machine Learning, and Mobile App Development, "
++ "with industry experience to deliver impactful solutions. Explore my portfolio to discover how my expertise can drive innovation "
++ "and add value to your organization."
 // Project Section //
 // -------------------------------- //
 // Project Titles

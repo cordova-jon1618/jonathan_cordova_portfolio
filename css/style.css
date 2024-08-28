@@ -585,6 +585,7 @@ img {
 
 #portfolioTitle {
     margin-bottom: 10px; /* Space between the title and the image */
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -607,6 +608,26 @@ img {
         text-align: center;
         margin-left: 100px;
     }
+}
+
+/* Center the section on large screens */
+@media only screen and (min-width: 992px) {
+    #home .d-flex {
+        justify-content: center;
+        margin-left: 75px;
+    }
+
+    #home .col-lg-8 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Making the font white, bolder, and style for the home section */
+#home {
+    color: white;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
