@@ -636,12 +636,13 @@ img {
 /* --------------------------------------------------------------- */ 
 
 #skills .col-md-4 {
-    padding-left: 225px;
-    padding-right: 225px;
-    padding-top: 0;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 20px;
     padding-bottom: 0;
+    width: auto;
+    max-width: auto;
 }
-
 
 #skills .list-group-item {
     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18); 
@@ -649,14 +650,46 @@ img {
     margin-bottom: 15px;
     border-radius: 5px; 
     padding: 15px; 
-    background-color: #333333; 
+    background-color: #333333; /* Default background color */
     color: white; 
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    display: inline-block; /* Ensure the item width adjusts to content */
+    width: auto; /* Let the width adjust based on text length */
+    max-width: 100%; /* Prevent items from exceeding the container width */
+    white-space: wrap; /* Prevent text from wrapping to keep the background consistent */
 }
 
 #skills .list-group-item:hover {
     transform: translateY(-5px);
     box-shadow: 2px 8px 12px 0 rgba(22, 22, 26, 0.25);
+}
+
+/* Adjust background color for different screen sizes */
+@media (max-width: 1200px) {
+    #skills .list-group-item {
+        background-color: #333333; /* Default background color */
+        width: 100%;
+        max-width: 100%;
+        white-space: wrap; 
+    }
+}
+
+@media (max-width: 992px) {
+    #skills .list-group-item {
+        background-color: #333333; /* Default background color */
+        width: 100%;
+        max-width: 100%;
+        white-space: wrap; 
+    }
+}
+
+@media (max-width: 768px) {
+    #skills .list-group-item {
+        background-color: #333333; /* Default background color */
+        width: 100%;
+        max-width: 100%;
+        white-space: wrap; 
+    }
 }
 
 /* --------------------------------------------------------------- */ 

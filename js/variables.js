@@ -298,42 +298,42 @@ const researchLink3 = "https://arcs.center/3d-object-detection-and-vehicle-class
 // -------------------------------- //
 
 const skills1 = [
-    "Skill 1",
-    "Skill 2",
-    "Skill 3",
-    "Skill 4",
-    "Skill 5",
-    "Skill 6",
-    "Skill 7",
-    "Skill 8",
-    "Skill 9",
-    "Skill 10"
+    "Algorithms and Data Structures",
+    "Java (Programming Language)",
+    "Python (Programming Language)",
+    "C++ (Programming Language)",
+    "JavaScript (Programming Language)",
+    "C# (Programming Language)",
+    "C (Programming Language)",
+    "Prolog (Programming Language)",
+    "Kotlin (Programming Language)",
+    "Objective C (Programming Language)"
 ];
 
 const skills2 = [
-    "Skill 11",
-    "Skill 12",
-    "Skill 13",
-    "Skill 14",
-    "Skill 15",
-    "Skill 16",
-    "Skill 17",
-    "Skill 18",
-    "Skill 19",
-    "Skill 20"
+    "Machine Learning",
+    "Deep Learning",
+    "Artificial Intelligence (AI)",
+    "Data Science",
+    "Supervised Learning",
+    "Unsupervised Learning",
+    "Reinforcement Learning",
+    "Amazon AWS",
+    "MySQL",
+    "Microsoft SQL Server"
 ];
 
 const skills3 = [
-    "Skill 21",
-    "Skill 22",
-    "Skill 23",
-    "Skill 24",
-    "Skill 25",
-    "Skill 26",
-    "Skill 27",
-    "Skill 28",
-    "Skill 29",
-    "Skill 30"
+    "Software Engineering",
+    "ReactJS",
+    "AngularJS",
+    "ASP.NET",
+    "Web Engineering",
+    "Structured Query Language (SQL}",
+    "PostgreSQL",
+    "Prolog (Programming Language)",
+    "Unity Engine",
+    "Visual Basic Application (VBA)"
 ];
 
 
