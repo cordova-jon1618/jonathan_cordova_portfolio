@@ -2,13 +2,13 @@
 // variables.js
 const firstName = "Jonathan";
 const lastName = "Cordova's";
-const portfolioTitle = `${firstName} ${lastName}\nPortfolio`;  // "Portfolio" on a new line
+const portfolioTitle = `${firstName} ${lastName}\nPortfolio`;
 const navbarBrandText = "";
 const navbarProfileImage = "./assets/profile_photo.png";
 
 // Home Section //
 // -------------------------------- //
-const sectionHomeTitle = "Jonathan Cordova's Portfolio";
+const sectionHomeTitle = "My Portfolio: \nJonathan Cordova ";
 const sectionHomeDescription = "I am a Software Engineer based in Los Angeles with a Master of Science in Computer Science from "
 + "California State University, Northridge (CSUN). I specialize in Software Engineering, Machine Learning, and Mobile App Development, "
 + "with industry experience to deliver impactful solutions. Explore my portfolio to discover how my expertise can drive innovation "
