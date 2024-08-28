@@ -632,3 +632,31 @@ img {
 
 
 /* --------------------------------------------------------------- */ 
+/* Skill CSS Section */ 
+/* --------------------------------------------------------------- */ 
+
+#skills .col-md-4 {
+    padding-left: 225px;
+    padding-right: 225px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+#skills .list-group-item {
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18); 
+    border: none; 
+    margin-bottom: 15px;
+    border-radius: 5px; 
+    padding: 15px; 
+    background-color: #333333; 
+    color: white; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+#skills .list-group-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 2px 8px 12px 0 rgba(22, 22, 26, 0.25);
+}
+
+/* --------------------------------------------------------------- */ 

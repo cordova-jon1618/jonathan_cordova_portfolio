@@ -292,3 +292,49 @@ const researchImage3 = "./assets/research/icon_image_research_3_complexyolo.jpg"
 const researchLink1 = "https://ieeexplore.ieee.org/document/10454842";
 const researchLink2 = "https://arcs.center/3d-object-detection-and-vehicle-classification-based-on-lidar-point-clouds-for-real-time-traffic-flow-monitoring/";
 const researchLink3 = "https://arcs.center/3d-object-detection-and-vehicle-classification-based-on-lidar-point-clouds-for-real-time-traffic-flow-monitoring/";
+
+
+// Skills Section //
+// -------------------------------- //
+
+const skills1 = [
+    "Skill 1",
+    "Skill 2",
+    "Skill 3",
+    "Skill 4",
+    "Skill 5",
+    "Skill 6",
+    "Skill 7",
+    "Skill 8",
+    "Skill 9",
+    "Skill 10"
+];
+
+const skills2 = [
+    "Skill 11",
+    "Skill 12",
+    "Skill 13",
+    "Skill 14",
+    "Skill 15",
+    "Skill 16",
+    "Skill 17",
+    "Skill 18",
+    "Skill 19",
+    "Skill 20"
+];
+
+const skills3 = [
+    "Skill 21",
+    "Skill 22",
+    "Skill 23",
+    "Skill 24",
+    "Skill 25",
+    "Skill 26",
+    "Skill 27",
+    "Skill 28",
+    "Skill 29",
+    "Skill 30"
+];
+
+
+// -------------------------------- //

@@ -235,6 +235,28 @@
 
 
 
+            // Skill Section
+            // -------------------------------------------
+
+            // Function to populate skills into the corresponding list
+            function populateSkills(skillsArray, listId) {
+                const skillsList = document.getElementById(listId);
+                skillsArray.forEach(skill => {
+                    const listItem = document.createElement('li');
+                    listItem.className = 'list-group-item';
+                    listItem.textContent = skill;
+                    skillsList.appendChild(listItem);
+                });
+            }
+
+            // Populate each column with the corresponding skills
+            populateSkills(skills1, 'skills-list1');
+            populateSkills(skills2, 'skills-list2');
+            populateSkills(skills3, 'skills-list3');
+
+            // -------------------------------------------
+            
+
         });
     </script>
     
@@ -590,17 +612,6 @@
 
             </section>
 
-
-            <!-- Skill section -->
-            <!-- <section id="skills" class="container full-height">
-                <h2>Skills</h2>
-                <ul class="list-group">
-                    <li class="list-group-item">Skill 1</li>
-                    <li class="list-group-item">Skill 2</li>
-                    <li class="list-group-item">Skill 3</li>
-                </ul>
-            </section> -->
-
             <!-- Experience section -->
             <!-- <section id="experience" class="container full-height mb-5">
                 <h2>Professional Experience</h2>
@@ -792,19 +803,6 @@
 
 
 
-
-            <!-- Highlights section -->
-            <!-- <section id="highlights" class="container full-height mb-5">
-                <h2>Highlights</h2>
-                <ul class="list-group">
-                    <li class="list-group-item">Highlight 1</li>
-                    <li class="list-group-item">Highlight 2</li>
-                    <li class="list-group-item">Highlight 3</li>
-                </ul>
-            </section> -->
-
-
-
             <!-- Highlights section -->
 
             <!-- <section id="highlights" class="container full-height mb-5">
@@ -925,7 +923,6 @@
             </section>
 
 
-
             <!-- Research Section-->
 
             <!-- <section id="research" class="container full-height mb-5">
@@ -987,6 +984,34 @@
                     </div>
                 </div>
             </section>
+
+
+            <!-- Skill section -->
+            <section id="skills" class="full-height mb-5">
+                <div class="container">
+                    <!-- <div class="row pb-4"> -->
+                    <div class="d-flex pb-4">
+                        <div class="col-lg-8">
+                            <h6 class="text-brand">Skills</h6>
+                            <h1>My Skills</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul id="skills-list1" class="list-group"></ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul id="skills-list2" class="list-group"></ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul id="skills-list3" class="list-group"></ul>
+                    </div>
+                </div>
+                
+            </section>
+                
             
 
             <!-- About section -->
