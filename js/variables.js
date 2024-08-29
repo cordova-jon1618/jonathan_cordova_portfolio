@@ -125,7 +125,7 @@ const projectLink12 = "https://github.com/cordova-jon1618/Custom-Dataset-Complex
 
 // Variables for experience 1
 const experienceImgSrc1 = "assets/experience/nasa_jpl_logo.png";
-const experienceImgAlt1 = "NASA Logo";
+const experienceImgAlt1 = "Company 1 Logo";
 const experiencePosition1 = "ARCS Research Fellow";
 const experienceCompany1 = "Autonomy Research Center for STEAHM (ARCS) at California State University, Northridge (CSUN)";
 const experienceDuration1 = "(02/2024 - 05/2024)";
@@ -293,6 +293,59 @@ const researchLink1 = "https://ieeexplore.ieee.org/document/10454842";
 const researchLink2 = "https://arcs.center/3d-object-detection-and-vehicle-classification-based-on-lidar-point-clouds-for-real-time-traffic-flow-monitoring/";
 const researchLink3 = "https://arcs.center/3d-object-detection-and-vehicle-classification-based-on-lidar-point-clouds-for-real-time-traffic-flow-monitoring/";
 
+
+// Education Section //
+// -------------------------------- //
+
+// Variables for education 1
+const educationImgSrc1 = "assets/education/CSUN_logo.png";
+const educationImgAlt1 = "School 1 Logo";
+const educationDegree1 = "Master of Science in Computer Science";
+const educationUniversity1 = "California State University, Northridge (CSUN)";
+const educationDuration1 = "(01/2022 - 05/2024)";
+const educationDescription1_1 = "Data Structures and Algorithms, Advanced Web Engineering, Software Engineering, Machine Learning, Data Mining, "
++ "Artificial Intelligence, Advanced Computer Graphics, Algorithm Design, Computer System Security, Discrete Structures for Computer Science (Mathematics), "
++ "Expert Systems (using Prolog), Computer System Architecture (Parallel Programming), Automata, Language and Computation, Advanced Computer Graphics (Unity using C#)";
+const educationDescription1_2 = "Languages: C++, Java, Python, R, C, C#, JavaScript" 
+const educationDescription1_3 = "Frameworks & Tools: React JS, Angular JS, ASP.NET, Node JS, Unity, Android Studio, MATLAB, Amazon AWS & RDS, MySQL, Microsoft SQL Server, PostgreSQL, PL/SQL, Git"
+
+// Variables for education 2
+const educationImgSrc2 = "assets/education/ucr_blue_logo.jpg";
+const educationImgAlt2 = "School 2 Logo";
+const educationDegree2 = "Bachelor of Arts in Business Economics";
+const educationUniversity2 = "University of California, Riverside (UC Riverside)";
+const educationDuration2 = "(09/2009 - 12/2012)";
+const educationDescription2_1 = "B.A. In Business Economics from the Economics Department. Degree focused on Economics with an emphasize in Business.";
+const educationDescription2_2 = "Made the Dean's List, Spring and Fall 2010, Winter 2011 Quarters";
+const educationDescription2_3 = "Notable Courses Taken: Business 106: Financial Management, Business 20: Financial Accounting and Reporting, "
++ "Mathematics 9B: Calculus, Business 108: Financial Evaluation and Managerial Analysis, Economics 135: The Stock Market, Economics 130: Money, Banking & Credit";
+
+
+// Variables for education 3
+const educationImgSrc3 = "assets/education/ucla_ext_logo.jpg";
+const educationImgAlt3 = "School 3 Logo";
+const educationDegree3 = "Computer Science (Java)";
+const educationUniversity3 = "UCLA Extension";
+const educationDuration3 = "(2017)";
+const educationDescription3_1 = "Using Java, successfully built a database GUI application with Java Swing that allows users to track inventory "
++ "and allows the user the ability to retrieve, add, edit, & delete records.";
+const educationDescription3_2 = "Java Servlets and Java Server Pages; Session Management; Spring Framework; Web services & applications; Data "
+" Persistence; Hibernate ORM; and Security (all via Apache Tomcat).";
+const educationDescription3_3 = "Expert Java programming knowledge using encapsulation, classes, constructors, collections, generics, graphical "
++ "user interface design; threading and asynchronous processing; files, streams, database usage, and object serialization.";
+
+
+// Variables for education 4
+const educationImgSrc4 = "assets/education/pierce_college_logo.jpg";
+const educationImgAlt4 = "School 4 Logo";
+const educationDegree4 = "Computer Science";
+const educationUniversity4 = "Los Angeles Pierce College";
+const educationDuration4 = "(2016 - 2018)";
+const educationDescription4_1 = "C++ object-oriented programming, using encapsulation, data hiding, inheritance and polymorphism with emphasis on "
++ "classes, constructors, destructors, friend functions, virtual functions, general and operator function overloading through the Pierce College program.";
+const educationDescription4_2 = "Java object-oriented programming, using classes, constructors, flow control statements, data types, methods, inheritance, "
++ "data hiding, and abstraction.";
+const educationDescription4_3 = "Machine and Assembly Language - including binary arithmetic, register usage, I/O, and performance-enhancing innovations";
 
 // Skills Section //
 // -------------------------------- //
