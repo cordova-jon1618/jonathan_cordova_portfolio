@@ -719,3 +719,27 @@ img {
 /* #about .text-container {
     margin-top: -125px;
 } */
+
+/* --------------------------------------------------------------- */ 
+/* Additional Links Section */ 
+/* --------------------------------------------------------------- */ 
+
+
+/* #additional-links .icon-container {
+    margin-top: 20px; 
+}
+
+#additional-links .icon-container img {
+    width: 40px;
+    height: 40px;
+}
+
+@media only screen and (max-width: 991px) {
+    #additional-links .col-lg-12 {
+        text-align: center;
+    }
+
+    #additional-links .icon-container {
+        margin-top: 20px;
+    }
+} */
