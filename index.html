@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Jonathan Cordova Portfolio</title>
     <!-- Importing Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Importing custom CSS -->
@@ -51,7 +51,8 @@
 
             document.getElementById('sectionHomeTitle').innerText = sectionHomeTitle;
             document.getElementById('sectionHomeDescription').innerText = sectionHomeDescription;
-
+            document.getElementById('homeProfileImage').src = homeProfileImage;
+            
 
             // Project Section
             // -------------------------------------------
@@ -413,9 +414,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#skills">Skills</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="#additional-links">Additional Links</a>
                     </li>
@@ -434,11 +435,30 @@
                 <a href="#project" class="btn btn-primary">Button</a>
             </section> -->
             
-            <section id="home" class="container full-height mb-5">
+            <!-- <section id="home" class="container full-height mb-5">
                 <div class="d-flex pb-4">                       
                     <div class="col-lg-8">
                         <h1 id="sectionHomeTitle" class="display-4"></h1>
                         <p id="sectionHomeDescription" class="lead"></p>
+                    </div>
+                </div>
+            </section> -->
+
+
+            <!-- Home section -->
+            <section id="home" class="container full-height mb-5">
+                <div class="row">
+                    <div class="d-flex pb-4">
+                        <!-- Combined Image and Content -->
+                        <div class="col-lg-12 d-flex align-items-center">
+                            <!-- Profile Image -->
+                            <img id="homeProfileImage" alt="Profile Image" style="width: auto; height: auto; padding: 35px;">
+                            <!-- Home Content -->
+                            <div class="text-container">
+                                <h1 id="sectionHomeTitle" class="display-4"></h1>
+                                <p id="sectionHomeDescription" class="lead"></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -1186,7 +1206,6 @@
             <!-- Skill section -->
             <section id="skills" class="full-height mb-5">
                 <div class="container">
-                    <!-- <div class="row pb-4"> -->
                     <div class="d-flex pb-4">
                         <div class="col-lg-8">
                             <h6 class="text-brand">Skills</h6>
@@ -1210,26 +1229,12 @@
             </section>
 
 
-
-             <!-- About section -->
-            <!-- <section id="about" class="container full-height mb-5">
-                <div class="d-flex pb-4">                       
-                    <div class="col-lg-8">
-                        <h1 id="sectionAboutTitle" class="display-4"></h1>
-                        <p id="sectionAboutDescription" class="lead"></p>
-                    </div>
-                </div>
-            </section> -->
-
             <!-- About section -->
-            <section id="about" class="container full-height mb-5">
+            <!-- <section id="about" class="container full-height mb-5">
                 <div class="row">
                     <div class="d-flex pb-4">
-                        <!-- Combined Image and Content -->
                         <div class="col-lg-12 d-flex align-items-center">
-                            <!-- Profile Image -->
                             <img id="aboutProfileImage" alt="Profile Image" style="width: auto; height: auto; padding: 35px;">
-                            <!-- About Content -->
                             <div class="text-container">
                                 <h1 id="sectionAboutTitle" class="display-4"></h1>
                                 <p id="sectionAboutDescription" class="lead"></p>
@@ -1237,14 +1242,8 @@
                         </div>
                     </div>
                 </div>
-            </section>
-        
-
-            <!-- About section -->
-            <!-- <section id="about" class="container full-height mb-5">
-                <h2>About Me</h2>
-                <p>About details...</p>
             </section> -->
+            
 
             <!-- Additional Links section -->
             <section id="additional-links" class="container full-height mb-5">

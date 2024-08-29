@@ -590,16 +590,15 @@ img {
 
 
 /* Center the section on mobile devices */
-/* @media (max-width: 576px) { */
 @media only screen and (max-width: 991px) {
-    #home {
+    /* #home {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
         margin-left: 50px;
-    }
+    } */
     .row{
         display: flex;
         flex-direction: column;
@@ -611,7 +610,7 @@ img {
 }
 
 /* Center the section on large screens */
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
     #home .d-flex {
         justify-content: center;
         margin-left: 75px;
@@ -621,14 +620,14 @@ img {
         margin-left: auto;
         margin-right: auto;
     }
-}
+} */
 
 /* Making the font white, bolder, and style for the home section */
-#home {
+/* #home {
     color: white;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
-}
+} */
 
 
 /* --------------------------------------------------------------- */ 
@@ -716,9 +715,37 @@ img {
     }
 }
 
-/* #about .text-container {
-    margin-top: -125px;
-} */
+
+/* --------------------------------------------------------------- */ 
+/* Home Section */ 
+/* --------------------------------------------------------------- */
+
+/* Side-by-side layout on larger screens */
+@media only screen and (min-width: 992px) {
+    #home .col-lg-12 {
+        display: flex;
+        align-items: center;
+    }
+}
+
+/* Stack content on smaller screens */
+@media only screen and (max-width: 991px) {
+    #home .col-lg-12 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #home #homeProfileImage {
+        margin-bottom: 20px;
+    }
+}
+
+#home {
+    color: white;
+    font-weight: bold;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
 
 /* --------------------------------------------------------------- */ 
 /* Additional Links Section */ 

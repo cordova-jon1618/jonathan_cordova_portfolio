@@ -15,6 +15,9 @@ const sectionHomeDescription = "I am a Software Engineer based in Los Angeles wi
 + "with industry experience to deliver impactful solutions. Explore my portfolio to discover how my expertise can drive innovation "
 + "and add value to your organization."
 
+const homeProfileImage = "./assets/about/about_profile_pic.png";
+
+
 // All Sections //
 // -------------------------------- //
 const projectButton1 = "Learn More...";
