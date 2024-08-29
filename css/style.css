@@ -693,3 +693,29 @@ img {
 }
 
 /* --------------------------------------------------------------- */ 
+/* About Section */ 
+/* --------------------------------------------------------------- */ 
+
+/* Side-by-side layout on larger screens */
+@media only screen and (min-width: 992px) {
+    #about .col-lg-12 {
+        display: flex;
+        align-items: center;
+    }
+}
+
+/* Stack content on smaller screens */
+@media only screen and (max-width: 991px) {
+    #about .col-lg-12 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #about #aboutProfileImage {
+        margin-bottom: 20px;
+    }
+}
+
+/* #about .text-container {
+    margin-top: -125px;
+} */

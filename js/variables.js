@@ -439,3 +439,16 @@ const skills3 = [
 
 
 // -------------------------------- //
+
+// About Section //
+// -------------------------------- //
+const sectionAboutTitle = "My Portfolio: \nJonathan Cordova ";
+const sectionAboutDescription = "I am a Software Engineer based in Los Angeles with a Master of Science in Computer Science from "
++ "California State University, Northridge (CSUN). I specialize in Software Engineering, Machine Learning, and Mobile App Development, "
++ "with industry experience to deliver impactful solutions. Explore my portfolio to discover how my expertise can drive innovation "
++ "and add value to your organization."
+
+const aboutProfileImage = "./assets/about/about_profile_pic.png";
+
+
+// -------------------------------- //

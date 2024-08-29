@@ -318,8 +318,15 @@
             populateSkills(skills3, 'skills-list3');
 
             // -------------------------------------------
+            // About Section
+            // -------------------------------------------
             
+            document.getElementById('sectionAboutTitle').innerText = sectionAboutTitle;
+            document.getElementById('sectionAboutDescription').innerText = sectionAboutDescription;
 
+            document.getElementById('aboutProfileImage').src = aboutProfileImage;
+            
+            // -------------------------------------------
         });
     </script>
     
@@ -1201,14 +1208,46 @@
                 </div>
                 
             </section>
-                
-            
+
+
+
+             <!-- About section -->
+            <!-- <section id="about" class="container full-height mb-5">
+                <div class="d-flex pb-4">                       
+                    <div class="col-lg-8">
+                        <h1 id="sectionAboutTitle" class="display-4"></h1>
+                        <p id="sectionAboutDescription" class="lead"></p>
+                    </div>
+                </div>
+            </section> -->
 
             <!-- About section -->
             <section id="about" class="container full-height mb-5">
+                <div class="row">
+                    <div class="d-flex pb-4">
+                        <!-- Combined Image and Content -->
+                        <div class="col-lg-12 d-flex align-items-center">
+                            <!-- Profile Image -->
+                            <img id="aboutProfileImage" alt="Profile Image" style="width: auto; height: auto; padding: 35px;">
+                            <!-- About Content -->
+                            <div class="text-container">
+                                <h1 id="sectionAboutTitle" class="display-4"></h1>
+                                <p id="sectionAboutDescription" class="lead"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+
+            <!-- About section -->
+            <!-- <section id="about" class="container full-height mb-5">
                 <h2>About Me</h2>
                 <p>About details...</p>
-            </section>
+            </section> -->
+
+
+
 
         </div>
 </div>
