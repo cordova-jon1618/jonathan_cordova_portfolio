@@ -1,8 +1,9 @@
 
 // variables.js
 const firstName = "Jonathan";
-const lastName = "Cordova's";
-const portfolioTitle = `${firstName} ${lastName}\nPortfolio`;
+const lastName = "Cordova";
+// const portfolioTitle = `${firstName} ${lastName}\nPortfolio`;
+const portfolioTitle = `My Portfolio:\n ${firstName} ${lastName}`;
 const navbarBrandText = "";
 const navbarProfileImage = "./assets/profile_photo.png";
 
@@ -13,8 +14,40 @@ const sectionHomeDescription = "I am a Software Engineer based in Los Angeles wi
 + "California State University, Northridge (CSUN). I specialize in Software Engineering, Machine Learning, and Mobile App Development, "
 + "with industry experience to deliver impactful solutions. Explore my portfolio to discover how my expertise can drive innovation "
 + "and add value to your organization."
+
+// All Sections //
+// -------------------------------- //
+const projectButton1 = "Learn More...";
+const projectButton2 = "Learn More...";
+const projectButton3 = "Learn More...";
+const projectButton4 = "Learn More...";
+const projectButton5 = "Learn More...";
+const projectButton6 = "Learn More...";
+const projectButton7 = "Learn More...";
+const projectButton8 = "Learn More...";
+const projectButton9 = "Learn More...";
+const projectButton10 = "Learn More...";
+const projectButton11 = "Learn More...";
+const projectButton12 = "Learn More...";
+
+const highlightButton1 = "Learn More...";
+const highlightButton2 = "Learn More...";
+const highlightButton3 = "Learn More...";
+const highlightButton4 = "Learn More...";
+const highlightButton5 = "Learn More...";
+const highlightButton6 = "Learn More...";
+const highlightButton7 = "Learn More...";
+const highlightButton8 = "Learn More...";
+const highlightButton9 = "Learn More...";
+
+const researchButton1 = "Learn More...";
+const researchButton2 = "Learn More...";
+const researchButton3 = "Learn More...";
+
+
 // Project Section //
 // -------------------------------- //
+
 // Project Titles
 const projectTitle1 = "Minimalist To-Do List Android Application";
 const projectTitle2 = "Built a Chess AI using Python";
@@ -47,28 +80,43 @@ const projectDescription4 = "The Bodega Web Application is designed to provide s
 + "home-operated businesses may not always receive the same level of visibility as larger, processed corporations. Bodega aims to bridge this gap and help CFOs "
 + "connect with potential customers.";
 
-const projectDescription5 = "Online shopping has radically changed the way people shop today. This project aims to improve the usability of the Amazon store "
-+ "page by scraping the data found on Amazon to filter out all of the extra information and try to find the products with the best value based on existing "
-+ "user reviews and price. Using R to create a product recommendation system. This system will use a web crawler to collect data from Amazon's webstore. Our "
-+ "crawler will crawl every product page in a product category to gather data including product names, categories, prices, user reviews and ratings. The data " 
-+ "collected is then cleaned and the reviews processed using sentiment analysis to give the product a sentiment score. A recommendation will be made to identify "
-+ "the best product in that product category.";
+const projectDescription5 = "This product recommendation project aims to enhance the Amazon store page by scraping and filtering data to identify the "
++ "best-value products based on user reviews and price. Using R, the project builds a product recommendation system that employs a web crawler to collect data, "
++ "including product names, categories, prices, and reviews. The data is cleaned, sentiment analysis is performed, and a classification model is applied to "
++ "categorize products as 'best value' or 'not recommended."
 
 const projectDescription6 = "Can Machine Learning assist with Predicting Stock Market prices? The problem of predicting how the stock market that often benchmarks"
 +" the U.S. economy is an essential and significant question posed by many individuals, investment firms, and government institutions. This project uses the following "
 + "Machine Learning algorithms: Regression Trees, Extra Regression Trees, Random Forest, Artificial Neural Network (Recurrent Neural Network) to train models and "
 + "outputting prediction of the S&P 500 index stock can be located by the stock ticker of '^GSPC' on the Yahoo! Finance website.";
 
-const projectDescription7 = "Web application built for hosting Literature and Film reviews. Database was kept on Amazon AWS. Frontend built with AngularJS and backend "
-+ "with ASP.NET. Languages used JavaScript, TypeScript, SQL.";
+const projectDescription7 = "The Literature-Film Hub is a web application I developed as part of my Advanced Web Engineering course for hosting and sharing reviews "
++ "of literature and films. Built using AngularJS for the frontend and ASP.NET for the backend, the application leverages an AWS RDS database for reliable data storage. "
++ "The development involved using JavaScript, TypeScript, and SQL to create a robust platform. Users can create accounts, log in to write and post reviews, "
++ "search for books and films, and participate in discussions. The platform offers a seamless experience for literature and film enthusiasts to explore, review, "
++ "and engage with a community of like-minded individuals.";
 
-const projectDescription8 = "Using Unity, different lights scenes were built and explored.";
+const projectDescription8 = "In this project, I used the Unity Engine and C# to create and explore different lighting scenes, including Point Lights, Spot Lights, "
++ "Directional Lights, Area Lights, Emissive Materials, and Ambient Light. Through this work, I gained hands-on experience in selecting the right light type for "
++ "various scenarios, balancing creative vision with technical considerations like lightmapping and baked lighting. This project also deepened my understanding of "
++ "the differences between real-time and baked lighting, enhancing my ability to optimize visual quality and resource efficiency in static and dynamic scenes.";
 
-const projectDescription9 = "Compare DFAs Project: Checking DFA Equivalence Checker using DFA Minimization and Interactive DFA Creator UI";
+const projectDescription9 = "This project, built using JavaScript and React, involved creating a tool to compare Deterministic Finite Automata (DFAs) through an "
++ "interactive UI. Users can build and visualize DFAs by dragging out nodes and creating connections between them, with the option to compare two separate DFAs "
++ "to check for equivalence. The project incorporates DFA minimization techniques to enhance the comparison process. This tool required careful attention to "
++ "UI/UX design and a deep understanding of automata theory, allowing users to explore and verify DFA behavior in a hands-on, intuitive manner. The project was "
++ "developed by myself and two student teammates for my Advanced Theory of Computation course.";
 
-const projectDescription10 = "Display Dictionary Information in Detail screen, Android platform";
+const projectDescription10 = "As part of a team, we developed an Android application in Android Studio that displays detailed dictionary information for selected words."
++ " Our focus was the frontend component, designed to seamlessly integrate with the backend, which retrieves data from an online dictionary API and presents key information, "
++ "including definitions, pronunciation, syllabication, and part of speech. It handles multiple definitions, manages exceptions, and considers API call limits and "
++ "language options. The interface ensures a seamless user experience by displaying dictionary information in a separate section without interrupting ongoing interactions, "
++ "with the display starting within 5 seconds. This project was a collaborative effort that demonstrated our ability to integrate external APIs and build responsive, "
++ "user-friendly applications.";
 
-const projectDescription11 = "Cellular Automata Program (Rule 30) Built using MPI in C";
+const projectDescription11 = "This project implements Rule 30 Cellular Automata with both sequential and parallel programming versions. The parallel version utilizes "
++ "MPI (Message Passing Interface) in C, demonstrating concepts learned in my Advanced Computer System Architecture course. The project explores the efficiency and "
++ "performance differences between sequential and parallel processing.";
 
 const projectDescription12 = "Part of my research and thesis, this project is both 2D and 3D machine learning models to detect vehicles and classify vehicle types in 3D LiDAR"
 + " point cloud data. Applying 2D and 3D vehicle detection and classification models on real-time LiDAR point cloud traffic flow and output vehicle detection and "
