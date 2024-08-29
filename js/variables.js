@@ -15,7 +15,7 @@ const sectionHomeDescription = "I am a Software Engineer based in Los Angeles wi
 + "with industry experience to deliver impactful solutions. Explore my portfolio to discover how my expertise can drive innovation "
 + "and add value to your organization."
 
-const homeProfileImage = "./assets/about/about_profile_pic.png";
+const homeProfileImage = "./assets/home/home_profile_pic.png";
 
 
 // All Sections //
@@ -320,15 +320,28 @@ const highlightLink9 = "#";
 // Research Section //
 // -------------------------------- //
 // Research Titles
-const researchTitle1 = "Energy-efficient Workload Management in Datacenters";
+const researchTitle1 = "Energy-efficient Workload Management in Datacenters - IEEE Publication 2024";
 const researchTitle2 = "ARCS at CSUN: 3D Object Detection and Vehicle Classification based on LiDAR Point Clouds for Real-time Traffic Flow Monitoring";
 const researchTitle3 = "3D Vehicle Detection in Roadside Traffic Flow using Complex-YOLO";
 
 // Research Descriptions
-const researchDescription1 = "IEEE Publication 2024";
-const researchDescription2 = "Fellowship through Autonomy Research Center for STEAHM (ARCS) at "
-+ "California State University, Northridge (CSUN), a NASA-sponsored project in collaboration with NASA's Jet Propulsion Laboratory (JPL).";
-const researchDescription3 = "Double Blind Review for IEEE Publication submitted in 2024";
+const researchDescription1 = 
+  "IEEE Publication 2024 - Machine Learning-Based Energy-efficient Workload Management for Data Centers. \n\nOur research, conducted over the summer of 2023, "
++ "focuses on reducing energy consumption in data centers by implementing thermal-aware workload distribution for GPU-intensive tasks, using advanced machine "
++ "learning models to simulate these tasks. We achieved a 12.82% reduction in computing costs. These findings were published in the 2024 IEEE 21st Consumer "
++ "Communications & Networking Conference (CCNC).";
+
+const researchDescription2 = 
+  "Fellowship through Autonomy Research Center for STEAHM (ARCS) at California State University, Northridge (CSUN), a NASA-sponsored project in collaboration "
++ "with NASA's Jet Propulsion Laboratory (JPL). This project focuses on 3D object detection and vehicle classification using LiDAR point clouds for real-time "
++ "traffic flow monitoring on highways in Southern California. \n\nOur research involves using 2D cameras and 3D cameras (lidar) to collect 2D and 3D data, "
++ "developing 3D machine learning models for accurate vehicle detection and classification, and providing real-time traffic flow statistics into a web interface. "
++ "This research project focuses on providing real-time data to regarding vehicle types, lane number, and statistical insights such as traffic speed and density, "
++ "with results visualized to predict traffic flow patterns."
+
+const researchDescription3 = "3D Vehicle Detection in Roadside Traffic Flow using Complex-YOLO is a key component of both my fellowship research "
++ "project and my Master's thesis. \n\nMy research, submitted in 2024 for double-blind peer review for potential publication in an IEEE journal, focuses "
++ "on improving vehicle detection and classification in roadside traffic flow using advanced machine learning techniques with Complex-YOLO.";
 
 // Research Images
 // const researchImage1 = "https://via.placeholder.com/150";
@@ -398,60 +411,66 @@ const educationDescription4_2 = "Java object-oriented programming, using classes
 + "data hiding, and abstraction.";
 const educationDescription4_3 = "Machine and Assembly Language - including binary arithmetic, register usage, I/O, and performance-enhancing innovations";
 
+// -------------------------------- //
+// Additional Links Section //
+// -------------------------------- //
+
+const linkedinLink = "https://www.linkedin.com/in/jonathan-cordova-portfolio/";
+const githubLink = "https://github.com/cordova-jon1618";
+
+
 // Skills Section //
 // -------------------------------- //
 
-const skills1 = [
-    "Algorithms and Data Structures",
-    "Java (Programming Language)",
-    "Python (Programming Language)",
-    "C++ (Programming Language)",
-    "JavaScript (Programming Language)",
-    "C# (Programming Language)",
-    "C (Programming Language)",
-    "Prolog (Programming Language)",
-    "Kotlin (Programming Language)",
-    "Objective C (Programming Language)"
-];
+// const skills1 = [
+//     "Algorithms and Data Structures",
+//     "Java (Programming Language)",
+//     "Python (Programming Language)",
+//     "C++ (Programming Language)",
+//     "JavaScript (Programming Language)",
+//     "C# (Programming Language)",
+//     "C (Programming Language)",
+//     "Prolog (Programming Language)",
+//     "Kotlin (Programming Language)",
+//     "Objective C (Programming Language)"
+// ];
 
-const skills2 = [
-    "Machine Learning",
-    "Deep Learning",
-    "Artificial Intelligence (AI)",
-    "Data Science",
-    "Supervised Learning",
-    "Unsupervised Learning",
-    "Reinforcement Learning",
-    "Amazon AWS",
-    "MySQL",
-    "Microsoft SQL Server"
-];
+// const skills2 = [
+//     "Machine Learning",
+//     "Deep Learning",
+//     "Artificial Intelligence (AI)",
+//     "Data Science",
+//     "Supervised Learning",
+//     "Unsupervised Learning",
+//     "Reinforcement Learning",
+//     "Amazon AWS",
+//     "MySQL",
+//     "Microsoft SQL Server"
+// ];
 
-const skills3 = [
-    "Software Engineering",
-    "ReactJS",
-    "AngularJS",
-    "ASP.NET",
-    "Web Engineering",
-    "Structured Query Language (SQL}",
-    "PostgreSQL",
-    "Prolog (Programming Language)",
-    "Unity Engine",
-    "Visual Basic Application (VBA)"
-];
+// const skills3 = [
+//     "Software Engineering",
+//     "ReactJS",
+//     "AngularJS",
+//     "ASP.NET",
+//     "Web Engineering",
+//     "Structured Query Language (SQL}",
+//     "PostgreSQL",
+//     "Prolog (Programming Language)",
+//     "Unity Engine",
+//     "Visual Basic Application (VBA)"
+// ];
 
 
 // -------------------------------- //
 
 // About Section //
 // -------------------------------- //
-const sectionAboutTitle = "My Portfolio: \nJonathan Cordova ";
-const sectionAboutDescription = "I am a Software Engineer based in Los Angeles with a Master of Science in Computer Science from "
-+ "California State University, Northridge (CSUN). I specialize in Software Engineering, Machine Learning, and Mobile App Development, "
-+ "with industry experience to deliver impactful solutions. Explore my portfolio to discover how my expertise can drive innovation "
-+ "and add value to your organization."
+// const sectionAboutTitle = "My Portfolio: \nJonathan Cordova ";
+// const sectionAboutDescription = "I am a Software Engineer based in Los Angeles with a Master of Science in Computer Science from "
+// + "California State University, Northridge (CSUN). I specialize in Software Engineering, Machine Learning, and Mobile App Development, "
+// + "with industry experience to deliver impactful solutions. Explore my portfolio to discover how my expertise can drive innovation "
+// + "and add value to your organization."
 
-const aboutProfileImage = "./assets/about/about_profile_pic.png";
+// const aboutProfileImage = "./assets/about/about_profile_pic.png";
 
-
-// -------------------------------- //
