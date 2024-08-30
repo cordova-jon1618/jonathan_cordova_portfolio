@@ -145,6 +145,34 @@ img {
     }
 }
 
+/* Forces the card layout to not change through .col-md-4 */
+#project .col-md-4 { 
+    width: auto;
+}
+
+#highlights .col-md-4 { 
+    width: auto;
+}
+
+#research .col-md-4 { 
+    width: auto;
+}
+
+/* Override styles for screens 576px and below */
+/* @media (max-width: 576px) {
+    #project .col-md-4 { 
+        width: auto;
+    }
+} */
+
+/* Additional styles for screens larger than 767px */
+/* @media (min-width: 929px) {
+    .card {
+        width: 100%; 
+        margin: 0 auto 1rem auto; 
+    }
+} */
+
 /* Highlight Section Styles */
 /* --------------------------------- */
 
