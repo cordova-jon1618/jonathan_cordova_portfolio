@@ -227,21 +227,74 @@ img {
 @media (max-width: 430px) {
     #project .col-md-4, #research .col-md-4, #highlights .col-md-4 {
         width: 80%;
-        padding-right: 30px;
+        padding-right: 40px;
     }
 }
 
 @media (max-width: 380px) {
     #project .col-md-4, #research .col-md-4, #highlights .col-md-4 {
         width: 70%;
-        padding-right: 40px;
+        padding-right: 50px;
     }
 }
 
 @media (max-width: 320px) {
     #project .col-md-4, #research .col-md-4, #highlights .col-md-4 {
         width: 55%;
-        padding-right: 40px;
+        padding-right: 50px;
+    }
+}
+
+
+/* ---------------------------------------------------------------------- */
+/* Adjusts for allow screen size tiers for text-container in Additional Link section */
+/* ---------------------------------------------------------------------- */
+
+/* Default padding for all screen sizes */
+#additional-links .col-lg-12 {
+    padding-right: 75px;
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+    #additional-links .col-lg-12 {
+        width: 100%;
+        padding-right: 20px;  
+    }
+}
+
+@media (max-width: 576px) {
+    #additional-links .col-lg-12 {
+        width: 100%;
+        padding-right: 20px; 
+    }
+}
+
+@media (max-width: 480px) {
+    #additional-links .col-lg-12 {
+        width: 100%;
+        padding-right: 20px; 
+    }
+}
+
+@media (max-width: 430px) {
+    #additional-links .col-lg-12 {
+        width: 100%;
+        padding-right: 20px;  
+    }
+}
+
+@media (max-width: 380px) {
+    #additional-links .col-lg-12 {
+        width: 100%;
+        padding-right: 25px; 
+    }
+}
+
+@media (max-width: 320px) {
+    #additional-links .col-lg-12 {
+        width: 100%;
+        padding-right: 30px;
     }
 }
 
