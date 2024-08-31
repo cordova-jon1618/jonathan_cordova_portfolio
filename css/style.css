@@ -505,13 +505,13 @@ img {
     margin-left: 250px;
 } */
 .timeline-img {
-    width: 27%; /* Adjust percentage based on desired size */
-    height: auto; /* Maintains aspect ratio */
+    width: 27%;
+    height: auto; 
     border-radius: 50%;
     object-fit: cover;
     margin-top: -40px;
     margin-right: -9px;
-    margin-left: 38%; /* Adjust percentage to position the icon */
+    margin-left: 38%; 
 }
 
 
@@ -707,6 +707,7 @@ img {
     }
     .main-timeline .icon {
         margin: auto 0
+        /* margin: auto 40px */
     }
     .main-timeline .date-content {
         width: 95%;
@@ -735,13 +736,115 @@ img {
     .main-timeline .timeline:nth-child(2n) .timeline-content {
         width: 95%;
         text-align: center;
-        padding: 10px 0
+        /* text-align: left; */
+        /* padding: 10px 0 */
+        padding-left: 90px;
     }
     .main-timeline .title {
         margin-top: 15px;
         margin-bottom: 10px
     }
 }
+
+
+/* --------------------------------------------------------------- */ 
+/* Adjusting Timeline Icon size for every screensize */ 
+/* --------------------------------------------------------------- */ 
+
+@media only screen and (max-width: 1450px) {
+
+    .timeline-img {
+        width: 35%;
+        height: auto; 
+        border-radius: 50%;
+        object-fit: cover;
+        margin-top: -40px;
+        margin-right: -9px;
+        margin-left: 38%; 
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+
+    .timeline-img {
+        width: 50%;
+        height: auto; 
+        border-radius: 50%;
+        object-fit: cover;
+        margin-top: -40px;
+        margin-right: -9px;
+        /* margin-left: 38%;  */
+        margin-left: 25%; 
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .timeline-img {
+        width: 37%;
+        height: auto; 
+        border-radius: 50%;
+        object-fit: cover;
+        margin-top: -40px;
+        margin-right: -9px;
+        margin-left: 38%; 
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    .timeline-img {
+        width: 37%;
+        height: auto; 
+        border-radius: 50%;
+        object-fit: cover;
+        margin-top: -40px;
+        margin-right: -9px;
+        margin-left: 38%; 
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .timeline-img {
+        width: 50%;
+        height: auto; 
+        border-radius: 50%;
+        object-fit: cover;
+        margin-top: -40px;
+        margin-right: -9px;
+        margin-left: 38%; 
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+    .timeline-img {
+        width: 50%;
+        height: auto; 
+        border-radius: 50%;
+        object-fit: cover;
+        margin-top: -40px;
+        margin-right: -9px;
+        margin-left: 38%; 
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .timeline-img {
+        width: 60%;
+        height: auto; 
+        border-radius: 50%;
+        object-fit: cover;
+        margin-top: -40px;
+        margin-right: -9px;
+        margin-left: 38%; 
+    }
+}
+
+/* --------------------------------------------------------------- */ 
 
 
 /* Mobile View */
@@ -951,4 +1054,3 @@ img {
     #additional-links .icon-container {
         margin-top: 20px;
     }
-} */
