@@ -734,11 +734,11 @@ img {
     }
     .main-timeline .timeline-content,
     .main-timeline .timeline:nth-child(2n) .timeline-content {
-        width: 95%;
-        text-align: center;
-        /* text-align: left; */
+        width: 100%;
+        /* text-align: center; */
+        text-align: left;
         /* padding: 10px 0 */
-        padding-left: 90px;
+        padding-left: 75px;
     }
     .main-timeline .title {
         margin-top: 15px;
