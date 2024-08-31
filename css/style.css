@@ -684,7 +684,8 @@ img {
         width: 22.5%
     }
     .main-timeline .timeline-content {
-        padding: 10px 0 10px 30px
+        padding: 10px 0 10px 30px;
+        text-align: left;
     }
     .main-timeline .title {
         font-size: 17px
@@ -734,17 +735,44 @@ img {
     }
     .main-timeline .timeline-content,
     .main-timeline .timeline:nth-child(2n) .timeline-content {
-        width: 100%;
+        width: 95%;
+        /* width: 100%; */
         /* text-align: center; */
         text-align: left;
-        /* padding: 10px 0 */
-        padding-left: 75px;
+        /* padding: 10px 0; */
+        padding-left: 15px;
     }
     .main-timeline .title {
         margin-top: 15px;
         margin-bottom: 10px
     }
 }
+
+/* ---------------------------------------------------------------    */ 
+/* Managing spacing between the text content in the timeline sections */ 
+/* ---------------------------------------------------------------    */ 
+.timeline-content h5 {
+    padding-bottom: 5px;
+}
+/* .timeline-content h7 {
+    padding-bottom: 10px;
+} */
+.timeline-content h6 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.timeline-content p {
+    padding-top: 1px;
+}
+
+@media only screen and (max-width: 767px) {
+    .timeline-content h6 {
+        padding-top: 1px;
+        padding-bottom: 5px;
+    }
+}
+
+/* --------------------------------------------------------------- */ 
 
 
 /* --------------------------------------------------------------- */ 
