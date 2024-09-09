@@ -206,10 +206,15 @@ const experienceImgAlt3 = "Company 3 Logo";
 const experiencePosition3 = "Research Assistant";
 const experienceCompany3 = "Computer Science Department, California State University, Northridge";
 const experienceDuration3 = "(03/2023 - 12/2023)";
-const experienceDescription3_1 = "Assisted in leading the NSF-sponsored Research Experience for Undergraduates (REU) Program under the supervision of Dr. Xunfei Jiang.";
-const experienceDescription3_2 = "Introduced participants to key technologies and methodologies, including PyTorch, TensorFlow, C language for high-performance "
-+ "computing, machine learning, data science, Numpy, Pandas, Jupyter Notebook through Anaconda, Git, GitHub, and Linux/Ubuntu.";
-const experienceDescription3_3 = "Co-authored a publication in IEEE on the practical applications of data science in energy-efficient cluster systems.";
+const experienceDescription3_1 = "Provided leadership and mentorship as a Research Assistant and Graduate Mentor for the NSF-sponsored Research Experience for "
++ "Undergraduates (REU) Program, under the guidance of Dr. Xunfei Jiang by leading workshops and hands-on sessions introducing participants to "
++ "technologies and methodologies, including PyTorch, TensorFlow, C programming for high-performance computing, machine learning frameworks, data science tools "
++ "such as Numpy and Pandas, Jupyter Notebooks through Anaconda, version control with Git/GitHub, and Linux/Ubuntu operating environments.";
+const experienceDescription3_2 = "Managed university servers using the Ganglia monitoring system, distributed user access and privileges to facilitate collaboration " 
++ "among researchers, and enhanced server monitoring by integrating features like temperature tracking and optimized data collection intervals. "
++ "My work played a critical role in maintaining high-performance computing resources ensuring the seamless operation of research projects focused on energy efficiency in server systems.";
+const experienceDescription3_3 = "Co-authored an IEEE publication on data science applications in energy-efficient cluster systems, highlighting practical "
++ "implementations in Green Computing research.";
 
 // Variables for experience 4
 const experienceImgSrc4 = "assets/experience/centene-health-net-logo.png";
