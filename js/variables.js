@@ -10,10 +10,9 @@ const navbarProfileImage = "./assets/profile_photo.png";
 // Home Section //
 // -------------------------------- //
 const sectionHomeTitle = "My Portfolio: \nJonathan Cordova ";
-const sectionHomeDescription = "I am a Software Engineer based in Los Angeles with a Master of Science in Computer Science from "
-+ "California State University, Northridge (CSUN). I specialize in Software Engineering, Machine Learning, and Mobile App Development, "
-+ "with industry experience to deliver impactful solutions. Explore my portfolio to discover how my expertise can drive innovation "
-+ "and add value to your organization."
+const sectionHomeDescription = "I am a Software Engineer based in Los Angeles. I have a Master of Science in Computer Science from California State University, Northridge (CSUN). "
++ "I specialize in Software Engineering, Machine Learning, and Mobile App Development and have industry experience in delivering impactful solutions. "
++ "Explore my portfolio to discover how my expertise can drive innovation and add value to your organization."
 
 const homeProfileImage = "./assets/home/home_profile_pic.png";
 
@@ -67,62 +66,61 @@ const projectTitle11 = "Cellular Automata Program (Rule 30) Built using MPI in C
 const projectTitle12 = "Real-Time Traffic Flow Monitoring using 2D and 3D Machine Learning Models for Roadside Vehicle Detection and Classification";
 
 // Project Descriptions
-const projectDescription1 = "This application focuses on providing a simple and intuitive interface for managing daily tasks, "
-+ "embracing a minimalist design philosophy to ensure ease of use and a clutter-free experience.";
+const projectDescription1 = "This app provides a simple and intuitive interface for managing daily "
++ "tasks, with a minimalist design for ease of use and a clutter-free experience.";
 
-const projectDescription2 = "Created a Chess AI using Python and Pygame, utilizing the Minimax algorithm with alpha-beta pruning "+
+const projectDescription2 = "Created a Chess AI using Python and Pygame, using the Minimax algorithm with alpha-beta pruning "+
 "for optimal move selection. Supports Player vs. AI mode, demonstrating strategic AI decision-making.";
 
 const projectDescription3 = "This Machine Learning (ML) agent project uses computer vision, 3D ray perception sensors, and reinforcement " +
 "learning to train an agent to navigate obstacles and reach a goal. The agents learns autonomously through trial and error, guided by incremental "
 + "rewards and penalties, within the Unity Game Engine and programmed in C# and Python.";
 
-const projectDescription4 = "The Bodega Web Application is designed to provide services for both customers and CFOs (Cottage Food Operators). "
-+ "CFOs will have the ability to create profiles to promote their businesses, allowing them to connect with customers who are interested in supporting "
-+ "their local community. The goal of Bodega is to create a platform for CFOs to showcase their businesses and provide a gateway for promotion, as small, "
-+ "home-operated businesses may not always receive the same level of visibility as larger, processed corporations. Bodega aims to bridge this gap and help CFOs "
-+ "connect with potential customers.";
+const projectDescription4 = "The Bodega Web Application is designed and built to provide services for customers and CFOs (Cottage Food Operators). "
++ "CFOs can create profiles to promote their businesses, allowing them to connect with customers interested in supporting their local community. "
++ "Bodega aims to create a platform for CFOs to showcase their businesses and provide a gateway for promotion, as small, "
++ "home-operated businesses. These home-operated businesses receive a low level of visibility compared to larger corporations. "
++ "Bodega aims to bridge this gap and help CFOs connect with potential customers.";
 
 const projectDescription5 = "This product recommendation project aims to enhance the Amazon store page by scraping and filtering data to identify the "
-+ "best-value products based on user reviews and price. Using R, the project builds a product recommendation system that employs a web crawler to collect data, "
++ "best-value products based on user reviews and prices. Using R, the project builds a product recommendation system that employs a web crawler to collect data, "
 + "including product names, categories, prices, and reviews. The data is cleaned, sentiment analysis is performed, and a classification model is applied to "
 + "categorize products as 'best value' or 'not recommended."
 
-const projectDescription6 = "Can Machine Learning assist with Predicting Stock Market prices? The problem of predicting how the stock market that often benchmarks"
+const projectDescription6 = "Can Machine Learning assist with Predicting Stock Market Prices? The problem of predicting how the stock market benchmarks"
 +" the U.S. economy is an essential and significant question posed by many individuals, investment firms, and government institutions. This project uses the following "
-+ "Machine Learning algorithms: Regression Trees, Extra Regression Trees, Random Forest, Artificial Neural Network (Recurrent Neural Network) to train models and "
++ "Machine Learning algorithms: Regression Trees, Extra Regression Trees, Random Forest, and Artificial Neural Networks (Recurrent Neural Network) to train models and "
 + "outputting prediction of the S&P 500 index stock can be located by the stock ticker of '^GSPC' on the Yahoo! Finance website.";
 
-const projectDescription7 = "The Literature-Film Hub is a web application I developed as part of my Advanced Web Engineering course for hosting and sharing reviews "
-+ "of literature and films. Built using AngularJS for the frontend and ASP.NET for the backend, the application leverages an AWS RDS database for reliable data storage. "
-+ "The development involved using JavaScript, TypeScript, and SQL to create a robust platform. Users can create accounts, log in to write and post reviews, "
-+ "search for books and films, and participate in discussions. The platform offers a seamless experience for literature and film enthusiasts to explore, review, "
-+ "and engage with a community of like-minded individuals.";
+const projectDescription7 = "I developed The Literature-Film Hub web application as part of my Advanced Web Engineering course. "
++ "It is designed for hosting and sharing reviews of literature and films. The frontend is built using AngularJS, while the backend is developed using ASP.NET. "
++ "The application uses an AWS RDS database for reliable data storage. The development process involved using JavaScript, TypeScript, and SQL to create a robust platform. "
++ "Users can create accounts, log in to write and post reviews, search for books and films, and participate in discussions. "
++ "This platform provides a seamless experience for literature and film enthusiasts to explore, review, and engage with a community of like-minded individuals. ";
 
-const projectDescription8 = "In this project, I used the Unity Engine and C# to create and explore different lighting scenes, including Point Lights, Spot Lights, "
-+ "Directional Lights, Area Lights, Emissive Materials, and Ambient Light. Through this work, I gained hands-on experience in selecting the right light type for "
-+ "various scenarios, balancing creative vision with technical considerations like lightmapping and baked lighting. This project also deepened my understanding of "
+const projectDescription8 = "In this project, I used the Unity Engine and C# to create and explore lighting scenes, including Point Lights, Spot Lights, "
++ "Directional Lights, Area Lights, Emissive Materials, and Ambient Light. Through this work, I gained hands-on experience selecting the right light type for "
++ "various scenarios and balancing creative vision with technical considerations like light mapping and baked lighting. This project also deepened my understanding of "
 + "the differences between real-time and baked lighting, enhancing my ability to optimize visual quality and resource efficiency in static and dynamic scenes.";
 
 const projectDescription9 = "This project, built using JavaScript and React, involved creating a tool to compare Deterministic Finite Automata (DFAs) through an "
-+ "interactive UI. Users can build and visualize DFAs by dragging out nodes and creating connections between them, with the option to compare two separate DFAs "
++ "interactive UI. Users can make and visualize DFAs by dragging out nodes and building connections between them, with the option to compare two separate DFAs "
 + "to check for equivalence. The project incorporates DFA minimization techniques to enhance the comparison process. This tool required careful attention to "
-+ "UI/UX design and a deep understanding of automata theory, allowing users to explore and verify DFA behavior in a hands-on, intuitive manner. The project was "
-+ "developed by myself and two student teammates for my Advanced Theory of Computation course.";
++ "UI/UX design and a deep understanding of automata theory, allowing users to explore and verify DFA behavior in a hands-on, intuitive manner. "
++ "I and two graduate colleagues developed the project for my Advanced Theory of Computation course. ";
 
 const projectDescription10 = "As part of a team, we developed an Android application in Android Studio that displays detailed dictionary information for selected words."
 + " Our focus was the frontend component, designed to seamlessly integrate with the backend, which retrieves data from an online dictionary API and presents key information, "
 + "including definitions, pronunciation, syllabication, and part of speech. It handles multiple definitions, manages exceptions, and considers API call limits and "
 + "language options. The interface ensures a seamless user experience by displaying dictionary information in a separate section without interrupting ongoing interactions, "
-+ "with the display starting within 5 seconds. This project was a collaborative effort that demonstrated our ability to integrate external APIs and build responsive, "
-+ "user-friendly applications.";
++ "with the display starting within 5 seconds. This collaborative project demonstrated our ability to integrate external APIs and build responsive, user-friendly applications. ";
 
 const projectDescription11 = "This project implements Rule 30 Cellular Automata with both sequential and parallel programming versions. The parallel version utilizes "
 + "MPI (Message Passing Interface) in C, demonstrating concepts learned in my Advanced Computer System Architecture course. The project explores the efficiency and "
 + "performance differences between sequential and parallel processing.";
 
-const projectDescription12 = "Part of my research and thesis, this project is both 2D and 3D machine learning models to detect vehicles and classify vehicle types in 3D LiDAR"
-+ " point cloud data. Applying 2D and 3D vehicle detection and classification models on real-time LiDAR point cloud traffic flow and output vehicle detection and "
+const projectDescription12 = "As part of my research and thesis, this project uses 2D and 3D machine learning models to detect vehicles and classify vehicle types in 3D LiDAR point cloud data. "
++ "Applying 2D and 3D vehicle detection and classification models on real-time LiDAR point cloud traffic flow and output vehicle detection and "
 + "classification results, including vehicle types and coordinates.";
 
 
@@ -180,10 +178,10 @@ const experienceImgAlt1 = "Company 1 Logo";
 const experiencePosition1 = "ARCS Research Fellow";
 const experienceCompany1 = "Autonomy Research Center for STEAHM (ARCS) at California State University, Northridge (CSUN)";
 const experienceDuration1 = "(02/2024 - 05/2024)";
-const experienceDescription1_1 = "Engaged in a NASA-sponsored research fellowship program, a collaborative initiative between CSUN and NASA JPL " 
+const experienceDescription1_1 = "Part of the NASA-sponsored research fellowship program, a collaborative initiative between CSUN and NASA JPL " 
 + "through the Autonomy Research Center for STEAHM (ARCS).";
 const experienceDescription1_2 = "Led the development of a traffic monitoring system using a projection-based method, " 
-+ "Complex YOLO, a machine learning detection and classification model with 92% precision and 86% recall based on our own roadside-collected dataset.";
++ "Complex YOLO, a machine learning detection and classification model with 92% precision and 86% recall based on our roadside-collected dataset.";
 const experienceDescription1_3 = "We aimed to enhance transportation management and safety by accurately detecting and classifying vehicles, monitoring "
 + "traffic flow dynamics, and providing real-time insights to optimize highway infrastructure and operations."
 
@@ -195,10 +193,10 @@ const experienceCompany2 = "Autonomy Research Center for STEAHM (ARCS) at Califo
 const experienceDuration2 = "(08/2023 - 02/2024)";
 const experienceDescription2_1 = "As an ARCS Research Associate at the Autonomy Research Center for STEAHM (ARCS) at California State University, Northridge (CSUN), "
 + "I contributed to a NASA-sponsored project in collaboration with NASA's Jet Propulsion Laboratory (JPL).";
-const experienceDescription2_2 = "I co-led a team of 10 students in developing a machine learning model for real-time vehicle detection and classification using "
+const experienceDescription2_2 = "I co-led a team of 10 students in developing a machine-learning model for real-time vehicle detection and classification using "
 +"3D LiDAR point-cloud data.";
-const experienceDescription2_3 = "My role involved managing the team and applying my expertise in machine learning and software engineering to the 3D Object "
-+"Detection and Vehicle Classification project aimed at enhancing real-time traffic flow monitoring.";
+const experienceDescription2_3 = "I managed the team and developed and applied my machine learning and software engineering expertise to the 3D Object Detection "
++ "and Vehicle Classification project aimed at enhancing real-time traffic flow monitoring.";
 
 // Variables for experience 3
 const experienceImgSrc3 = "assets/experience/csun_icon_logo.png";
@@ -210,9 +208,9 @@ const experienceDescription3_1 = "Provided leadership and mentorship as a Resear
 + "Undergraduates (REU) Program, under the guidance of Dr. Xunfei Jiang by leading workshops and hands-on sessions introducing participants to "
 + "technologies and methodologies, including PyTorch, TensorFlow, C programming for high-performance computing, machine learning frameworks, data science tools "
 + "such as Numpy and Pandas, Jupyter Notebooks through Anaconda, version control with Git/GitHub, and Linux/Ubuntu operating environments.";
-const experienceDescription3_2 = "Managed university servers using the Ganglia monitoring system, distributed user access and privileges to facilitate collaboration " 
-+ "among researchers, and enhanced server monitoring by integrating features like temperature tracking and optimized data collection intervals. "
-+ "My work played a critical role in maintaining high-performance computing resources ensuring the seamless operation of research projects focused on energy efficiency in server systems.";
+const experienceDescription3_2 = "Managed university servers using the Ganglia monitoring system, distributed user access and privileges to facilitate research collaboration, " 
++ "and enhanced server monitoring by integrating features like temperature tracking and optimized data collection intervals. "
++ "My work was critical in maintaining high-performance computing resources and ensuring the seamless operation of research projects focused on energy efficiency in server systems.";
 const experienceDescription3_3 = "Co-authored an IEEE publication on data science applications in energy-efficient cluster systems, highlighting practical "
 + "implementations in Green Computing research.";
 
@@ -232,10 +230,10 @@ const experienceImgAlt5 = "Company 5 Logo";
 const experiencePosition5 = "Business Analyst II";
 const experienceCompany5 = "Centene Corporation - Health Net";
 const experienceDuration5 = "(09/2018 - 05/2022)";
-const experienceDescription5_1 = "Provider Data Analytics Team Supporting a provider data system migration project by providing data processing support as a "
-+ "workaround solution during the phases of the system migration project.";
-const experienceDescription5_2 = "Testing enhancements, documenting production issues, and creating workaround solutions for system limitations.";
-const experienceDescription5_3 = "Enhancing, maintaining, and troubleshooting VBA compile errors for current system applications including Microsoft Access. " 
+const experienceDescription5_1 = "Supported software migration projects as part of the Provider Data Analytics Team by providing data processing support as a "
++ "workaround solution during the phases of the system migration project. ";
+const experienceDescription5_2 = "Responsibility included testing enhancements, documenting production issues, and creating workaround solutions for system limitations.";
+const experienceDescription5_3 = "Enhancing, maintaining, and troubleshooting VBA compile errors for current system applications, including Microsoft Access. " 
 + "Enhancing Flow Charts using Microsoft Visio for Automation testing of SQL Server Business Intelligence SSIS jobs.";
 
 // Variables for experience 6
@@ -244,11 +242,11 @@ const experienceImgAlt6 = "Company 6 Logo";
 const experiencePosition6 = "Data Coordinator";
 const experienceCompany6 = "Centene Corporation - Health Net";
 const experienceDuration6 = "(08/2017 - 09/2018)";
-const experienceDescription6_1 = "Running SQL queries to pull paid claim and capitation data to report and audit the completeness and accuracy of the data for the CalPERS and "
+const experienceDescription6_1 = "Implemented SQL queries to pull paid claim and capitation data to report and audit the completeness and accuracy of the data for the CalPERS and "
 + "Health Net Legacy Employees Groups.";
-const experienceDescription6_2 = "Successfully managing the reporting of weekly and monthly paid claims for the Health Net Centene Corporate Legacy Employee "
-+ "account using Microsoft Excel PV Tables, Vlookups, Functions, Visual Basic Application (VBA) Macros for claims including Medical, Mental Health and Pharmacy.";
-const experienceDescription6_3 = "Successfully manage the Health Net Centene's client account, CalPERS, including the reconciling, billing, and reporting for "
+const experienceDescription6_2 = "Successfully managed reporting of weekly and monthly paid claims for the Health Net Centene Corporate Legacy Employee "
++ "account using Microsoft Excel PV Tables, Vlookups, Functions, and Visual Basic Application (VBA) Macros for claims including Medical, Mental Health, and Pharmacy.";
+const experienceDescription6_3 = "Successfully managed Health Net Centene's client account, CalPERS, including the reconciling, billing, and reporting for "
 + "capitation, claims, and administrative fees using Excel Visual Basic (VBA) Macros and VBA programming techniques to automate procedural processes.";
 
 
@@ -269,16 +267,16 @@ const highlightTitle9 = "...";
 
 // Highlight Descriptions
 const highlightDescription1 = "Graduate Fellowship from Autonomy Research Center for STEAHM (ARCS), a NASA-sponsored research fellowship program, a collaborative initiative between CSUN and NASA JPL at "
-+ "California State University, Northridge (CSUN) through ARCS"
-const highlightDescription2 = "Graduation with Master of Science with Computer Science, May 2024"
++ "California State University, Northridge (CSUN) through ARCS."
+const highlightDescription2 = "Graduation with a Master of Science in Computer Science, May 2024"
 const highlightDescription3 = "NASA JPL Visit and Research Presentation."
-const highlightDescription4 = "As President (Chair) of the ACM Chapter at CSUN, led the revitalization of the previously dormant organization. "
-+"Implemented structured weekly meetings, delegated officer responsibilities, and developed strategic plans to ensure the chapter's smooth operation. "
-+ "Leadership responsibilities included preparing detailed reports, planning and executing events, and logging activities to track progress.";
-const highlightDescription5 = "Research Mentor for the 'Machine Learning-Based Energy-efficient Workload Management for Data Centers' Research Project sponsored by the National Science "
-+ "Foundation (NSF). Research Paper published in 2024 IEEE 21st Consumer Communications & Networking Conference (CCNC)";
-const highlightDescription6 = "My Research and Thesis centered on using lidar 3D camera technology to develop machine learning models for roadside vehicle detection "
-+ "and classification, aimed at real-time traffic flow monitoring. My paper has been submitted for research publication to the 23rd IEEE International Conference on Machine Learning and Applications";
+const highlightDescription4 = "During the 2023-2024 academic year, I served as the President (Chair) of the ACM Chapter at CSUN. My main focus was to revitalize the previously inactive organization. "
++ "I achieved this by implementing structured weekly meetings, delegating officer responsibilities, and developing strategic plans to ensure the chapter's smooth operation. "
++ "My leadership responsibilities included preparing detailed reports, planning and executing events, and logging activities to track our progress. ";
+const highlightDescription5 = "I served as the Research Mentor for the 'Machine Learning-Based Energy-efficient Workload Management for Data Centers' Research Project funded by the National Science Foundation (NSF). "
++ "The research paper was published in the 2024 IEEE 21st Consumer Communications & Networking Conference (CCNC). ";
+const highlightDescription6 = "My Research and Thesis centered on using lidar 3D camera technology to develop machine-learning models for roadside vehicle detection and classification aimed at real-time traffic flow monitoring. "
++ "My thesis has been published in the CSU ScholarWork academic system, and my research paper will be published and presented internationally at the 23rd IEEE International Conference on Machine Learning and Applications research publication in late 2024. ";
 const highlightDescription7 = "My team and I develop a neural network model to train amino-acid sequences of proteins to attempt to predict the one-to-many relationship" +
 " between an amino-acid sequence and the various Gene Ontology identifiers (which represent different aspects of the protein's function). Our contribution in this "
 + "competition may one day help researchers better understand the function of proteins, which is important for discovering how cells, tissues, and organs work. "
@@ -325,28 +323,27 @@ const highlightLink9 = "#";
 // Research Section //
 // -------------------------------- //
 // Research Titles
-const researchTitle1 = "Energy-efficient Workload Management in Datacenters - IEEE Publication 2024";
+const researchTitle1 = "IEEE Publication 2024 - Machine Learning-Based Energy-efficient Workload Management for Data Centers. ";
 const researchTitle2 = "ARCS at CSUN: 3D Object Detection and Vehicle Classification based on LiDAR Point Clouds for Real-time Traffic Flow Monitoring";
 const researchTitle3 = "3D Vehicle Detection in Roadside Traffic Flow using Complex-YOLO";
 
 // Research Descriptions
 const researchDescription1 = 
-  "IEEE Publication 2024 - Machine Learning-Based Energy-efficient Workload Management for Data Centers. \n\nOur research, conducted over the summer of 2023, "
-+ "focuses on reducing energy consumption in data centers by implementing thermal-aware workload distribution for GPU-intensive tasks, using advanced machine "
-+ "learning models to simulate these tasks. We achieved a 12.82% reduction in computing costs. These findings were published in the 2024 IEEE 21st Consumer "
-+ "Communications & Networking Conference (CCNC).";
+  "\nOur research, conducted over the summer of 2023, "
++ "focuses on reducing energy consumption in data centers by implementing thermal-aware workload distribution for GPU-intensive tasks. We used advanced machine learning models to simulate these tasks. "
++ "learning models to simulate these tasks. We achieved a 12.82% reduction in computing costs. These findings were presented at the 2024 IEEE 21st Consumer Communications & Networking Conference (CCNC). "; 
 
 const researchDescription2 = 
-  "Fellowship through Autonomy Research Center for STEAHM (ARCS) at California State University, Northridge (CSUN), a NASA-sponsored project in collaboration "
+  "I was awarded a fellowship through the Autonomy Research Center for STEAHM (ARCS) at California State University, Northridge (CSUN), a NASA-sponsored project in collaboration "
 + "with NASA's Jet Propulsion Laboratory (JPL). This project focuses on 3D object detection and vehicle classification using LiDAR point clouds for real-time "
-+ "traffic flow monitoring on highways in Southern California. \n\nOur research involves using 2D cameras and 3D cameras (lidar) to collect 2D and 3D data, "
++ "traffic flow monitoring on highways in Southern California. \n\nOur research involves using 2D cameras and 3D cameras (lidar) to collect roadside traffic vehicle data, "
 + "developing 3D machine learning models for accurate vehicle detection and classification, and providing real-time traffic flow statistics into a web interface. "
-+ "This research project focuses on providing real-time data to regarding vehicle types, lane number, and statistical insights such as traffic speed and density, "
++ "This research project focuses on providing real-time data to regarding vehicle types, lane numbers, and statistical insights such as traffic speed and density, "
 + "with results visualized to predict traffic flow patterns."
 
-const researchDescription3 = "3D Vehicle Detection in Roadside Traffic Flow using Complex-YOLO is a key component of both my fellowship research "
-+ "project and my Master's thesis. \n\nMy research, submitted in 2024 for double-blind peer review for potential publication in an IEEE journal, focuses "
-+ "on improving vehicle detection and classification in roadside traffic flow using advanced machine learning techniques with Complex-YOLO.";
+const researchDescription3 = "\n3D Vehicle Detection in Roadside Traffic Flow using Complex-YOLO is a key component of my fellowship research "
++ "project and my Master's thesis. \n\nMy research paper has gone through a double-blind academic peer review for publication in an IEEE journal. "
++ "My paper has been accepted for publication and presentation at the upcoming 23rd IEEE International Conference on Machine Learning and Applications. ";
 
 // Research Images
 // const researchImage1 = "https://via.placeholder.com/150";
