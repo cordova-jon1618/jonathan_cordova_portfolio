@@ -177,7 +177,7 @@ const experienceImgSrc1 = "assets/experience/nasa_jpl_logo.png";
 const experienceImgAlt1 = "Company 1 Logo";
 const experiencePosition1 = "ARCS Research Fellow";
 const experienceCompany1 = "Autonomy Research Center for STEAHM (ARCS) at California State University, Northridge (CSUN)";
-const experienceDuration1 = "(02/2024 - 05/2024)";
+const experienceDuration1 = "(02/2024 - 06/2024)";
 const experienceDescription1_1 = "Part of the NASA-sponsored research fellowship program, a collaborative initiative between CSUN and NASA JPL " 
 + "through the Autonomy Research Center for STEAHM (ARCS).";
 const experienceDescription1_2 = "Led the development of a traffic monitoring system using a projection-based method, " 
