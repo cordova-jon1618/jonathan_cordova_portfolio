@@ -10,8 +10,8 @@ const navbarProfileImage = "./assets/profile_photo.png";
 // Home Section //
 // -------------------------------- //
 const sectionHomeTitle = "My Portfolio: \nJonathan Cordova ";
-const sectionHomeDescription = "I recently graduated with a Master of Science in Computer Science from California State University, Northridge (CSUN). "
-+ "I specialize in Software Engineering, Data Science, Machine Learning, and Mobile App Development and have industry experience delivering impactful solutions. "
+const sectionHomeDescription = "I hold a Master of Science in Computer Science from California State University, Northridge (CSUN)."
++ "I specialize in Data Science, Data Analytics, Machine Learning, and Python automation to transform complex data into intelligent, automated insights."
 + "Explore my portfolio to discover how my expertise can drive innovation and add value to your organization."
 
 const homeProfileImage = "./assets/home/home_profile_pic.png";
