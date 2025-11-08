@@ -181,7 +181,7 @@ const experienceDuration1 = "(03/2025 - Current)";
 const experienceDescription1_1 = "Developed and optimized complex SQL (Oracle and SQL Server) and Hive/Impala queries to extract, transform, "
 + "and analyze large-scale datasets, delivering actionable insights that supported enterprise-wide strategic initiatives.";
 const experienceDescription1_2 = "Automated reports and implemented data quality checks with Python, enhancing efficiency, reliability, and turnaround time for key metrics."
-const experienceDescription1_3 = "Partnered with teams to analyze trends, build reports, and deliver insights that guided leadership decisions and improved operations."
+const experienceDescription1_3 = "Partnered with teams to analyze trends and develop Tableau dashboards that provided actionable insights, guiding leadership decisions and enhancing operational performance."
 
 // Variables for experience 2
 const experienceImgSrc2 = "assets/experience/nasa_jpl_logo.png";
