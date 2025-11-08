@@ -11,8 +11,8 @@ const navbarProfileImage = "./assets/profile_photo.png";
 // -------------------------------- //
 const sectionHomeTitle = "My Portfolio: \nJonathan Cordova ";
 const sectionHomeDescription = "I hold a Master of Science in Computer Science from California State University, Northridge (CSUN). "
-+ "I specialize in Data Science, Data Analytics, Machine Learning, and Python automation to transform complex data into intelligent, automated insights. "
-+ "Explore my portfolio to discover how my expertise can drive innovation and add value to your organization."
++ "I specialize in Advanced Data Analytics, Machine Learning, and leveraging Python and R for data analysis, automation, and business insights. "
++ "Explore my portfolio to see how I apply computer science, data analytics, and machine learning to develop intelligent, data-informed solutions across research and real-world applications. "
 
 const homeProfileImage = "./assets/home/home_profile_pic.png";
 
@@ -173,80 +173,91 @@ const projectLink12 = "https://github.com/cordova-jon1618/Custom-Dataset-Complex
 // -------------------------------- //
 
 // Variables for experience 1
-const experienceImgSrc1 = "assets/experience/nasa_jpl_logo.png";
+const experienceImgSrc1 = "assets/experience/lacare_logo.png";
 const experienceImgAlt1 = "Company 1 Logo";
-const experiencePosition1 = "ARCS Research Fellow";
-const experienceCompany1 = "Autonomy Research Center for STEAHM (ARCS) at California State University, Northridge (CSUN)";
-const experienceDuration1 = "(02/2024 - 06/2024)";
-const experienceDescription1_1 = "Part of the NASA-sponsored research fellowship program, a collaborative initiative between CSUN and NASA JPL " 
-+ "through the Autonomy Research Center for STEAHM (ARCS).";
-const experienceDescription1_2 = "Led the development of a traffic monitoring system using a projection-based method, " 
-+ "Complex YOLO, a machine learning detection and classification model with 92% precision and 86% recall based on our roadside-collected dataset.";
-const experienceDescription1_3 = "We aimed to enhance transportation management and safety by accurately detecting and classifying vehicles, monitoring "
-+ "traffic flow dynamics, and providing real-time insights to optimize highway infrastructure and operations."
+const experiencePosition1 = "Business Insights Data Analyst II";
+const experienceCompany1 = "L.A. Care Health Plan";
+const experienceDuration1 = "(03/2025 - Current)";
+const experienceDescription1_1 = "Developed and optimized complex SQL (Oracle and SQL Server) and Hive/Impala queries to extract, transform, "
++ "and analyze large-scale datasets, delivering actionable insights that supported enterprise-wide strategic initiatives.";
+const experienceDescription1_2 = "Automated reports and implemented data quality checks with Python, enhancing efficiency, reliability, and turnaround time for key metrics."
+const experienceDescription1_3 = "Partnered with teams to analyze trends, build reports, and deliver insights that guided leadership decisions and improved operations."
 
 // Variables for experience 2
-const experienceImgSrc2 = "assets/experience/arcs_csun_icon.png";
+const experienceImgSrc2 = "assets/experience/nasa_jpl_logo.png";
 const experienceImgAlt2 = "Company 2 Logo";
-const experiencePosition2 = "ARCS Research Associate";
+const experiencePosition2 = "ARCS Research Fellow";
 const experienceCompany2 = "Autonomy Research Center for STEAHM (ARCS) at California State University, Northridge (CSUN)";
-const experienceDuration2 = "(08/2023 - 02/2024)";
-const experienceDescription2_1 = "As an ARCS Research Associate at the Autonomy Research Center for STEAHM (ARCS) at California State University, Northridge (CSUN), "
-+ "I contributed to a NASA-sponsored project in collaboration with NASA's Jet Propulsion Laboratory (JPL).";
-const experienceDescription2_2 = "I co-led a team of 10 students in developing a machine-learning model for real-time vehicle detection and classification using "
-+"3D LiDAR point-cloud data.";
-const experienceDescription2_3 = "I managed the team and developed and applied my machine learning and software engineering expertise to the 3D Object Detection "
-+ "and Vehicle Classification project aimed at enhancing real-time traffic flow monitoring.";
+const experienceDuration2 = "(02/2024 - 06/2024)";
+const experienceDescription2_1 = "Part of the NASA-sponsored research fellowship program, a collaborative initiative between CSUN and NASA JPL " 
++ "through the Autonomy Research Center for STEAHM (ARCS).";
+const experienceDescription2_2 = "Led the development of a traffic monitoring system using a projection-based method, " 
++ "Complex YOLO, a machine learning detection and classification model with 92% precision and 86% recall based on our roadside-collected dataset.";
+const experienceDescription2_3 = "We aimed to enhance transportation management and safety by accurately detecting and classifying vehicles, monitoring "
++ "traffic flow dynamics, and providing real-time insights to optimize highway infrastructure and operations."
 
 // Variables for experience 3
-const experienceImgSrc3 = "assets/experience/csun_icon_logo.png";
+const experienceImgSrc3 = "assets/experience/arcs_csun_icon.png";
 const experienceImgAlt3 = "Company 3 Logo";
-const experiencePosition3 = "Research Assistant";
-const experienceCompany3 = "Computer Science Department, California State University, Northridge";
-const experienceDuration3 = "(03/2023 - 12/2023)";
-const experienceDescription3_1 = "Provided leadership and mentorship as a Research Assistant and Graduate Mentor for the NSF-sponsored Research Experience for "
+const experiencePosition3 = "ARCS Research Associate";
+const experienceCompany3 = "Autonomy Research Center for STEAHM (ARCS) at California State University, Northridge (CSUN)";
+const experienceDuration3 = "(08/2023 - 02/2024)";
+const experienceDescription3_1 = "As an ARCS Research Associate at the Autonomy Research Center for STEAHM (ARCS) at California State University, Northridge (CSUN), "
++ "I contributed to a NASA-sponsored project in collaboration with NASA's Jet Propulsion Laboratory (JPL).";
+const experienceDescription3_2 = "I co-led a team of 10 students in developing a machine-learning model for real-time vehicle detection and classification using "
++"3D LiDAR point-cloud data.";
+const experienceDescription3_3 = "I managed the team and developed and applied my machine learning and software engineering expertise to the 3D Object Detection "
++ "and Vehicle Classification project aimed at enhancing real-time traffic flow monitoring.";
+
+// Variables for experience 4
+const experienceImgSrc4 = "assets/experience/csun_icon_logo.png";
+const experienceImgAlt4 = "Company 4 Logo";
+const experiencePosition4 = "Research Assistant";
+const experienceCompany4 = "Computer Science Department, California State University, Northridge";
+const experienceDuration4 = "(03/2023 - 12/2023)";
+const experienceDescription4_1 = "Provided leadership and mentorship as a Research Assistant and Graduate Mentor for the NSF-sponsored Research Experience for "
 + "Undergraduates (REU) Program, under the guidance of Dr. Xunfei Jiang by leading workshops and hands-on sessions introducing participants to "
 + "technologies and methodologies, including PyTorch, TensorFlow, C programming for high-performance computing, machine learning frameworks, data science tools "
 + "such as Numpy and Pandas, Jupyter Notebooks through Anaconda, version control with Git/GitHub, and Linux/Ubuntu operating environments.";
-const experienceDescription3_2 = "Managed university servers using the Ganglia monitoring system, distributed user access and privileges to facilitate research collaboration, " 
+const experienceDescription4_2 = "Managed university servers using the Ganglia monitoring system, distributed user access and privileges to facilitate research collaboration, " 
 + "and enhanced server monitoring by integrating features like temperature tracking and optimized data collection intervals. "
 + "My work was critical in maintaining high-performance computing resources and ensuring the seamless operation of research projects focused on energy efficiency in server systems.";
-const experienceDescription3_3 = "Co-authored an IEEE publication on data science applications in energy-efficient cluster systems, highlighting practical "
+const experienceDescription4_3 = "Co-authored an IEEE publication on data science applications in energy-efficient cluster systems, highlighting practical "
 + "implementations in Green Computing research.";
-
-// Variables for experience 4
-const experienceImgSrc4 = "assets/experience/centene-health-net-logo.png";
-const experienceImgAlt4 = "Company 4 Logo";
-const experiencePosition4 = "Business Analyst III";
-const experienceCompany4 = "Centene Corporation - Health Net";
-const experienceDuration4 = "(05/2022 - 08/2022)";
-const experienceDescription4_1 = "Supported business initiatives by conducting data analysis, identifying implementation barriers, and performing user acceptance testing for various systems.";
-const experienceDescription4_2 = "Conducted detailed analysis on multiple projects, recommended potential business solutions, and ensured successful implementations.";
-const experienceDescription4_3 = "Identified methods to enhance performance management and created operational reports related to new business implementation processes.";
 
 // Variables for experience 5
 const experienceImgSrc5 = "assets/experience/centene-health-net-logo.png";
 const experienceImgAlt5 = "Company 5 Logo";
-const experiencePosition5 = "Business Analyst II";
+const experiencePosition5 = "Business Analyst III";
 const experienceCompany5 = "Centene Corporation - Health Net";
-const experienceDuration5 = "(09/2018 - 05/2022)";
-const experienceDescription5_1 = "Supported software migration projects as part of the Provider Data Analytics Team by providing data processing support as a "
-+ "workaround solution during the phases of the system migration project. ";
-const experienceDescription5_2 = "Responsibility included testing enhancements, documenting production issues, and creating workaround solutions for system limitations.";
-const experienceDescription5_3 = "Enhancing, maintaining, and troubleshooting VBA compile errors for current system applications, including Microsoft Access. " 
-+ "Enhancing Flow Charts using Microsoft Visio for Automation testing of SQL Server Business Intelligence SSIS jobs.";
+const experienceDuration5 = "(05/2022 - 08/2022)";
+const experienceDescription5_1 = "Supported business initiatives by conducting data analysis, identifying implementation barriers, and performing user acceptance testing for various systems.";
+const experienceDescription5_2 = "Conducted detailed analysis on multiple projects, recommended potential business solutions, and ensured successful implementations.";
+const experienceDescription5_3 = "Identified methods to enhance performance management and created operational reports related to new business implementation processes.";
 
 // Variables for experience 6
 const experienceImgSrc6 = "assets/experience/centene-health-net-logo.png";
 const experienceImgAlt6 = "Company 6 Logo";
-const experiencePosition6 = "Data Coordinator";
+const experiencePosition6 = "Business Analyst II";
 const experienceCompany6 = "Centene Corporation - Health Net";
-const experienceDuration6 = "(08/2017 - 09/2018)";
-const experienceDescription6_1 = "Implemented SQL queries to pull paid claim and capitation data to report and audit the completeness and accuracy of the data for the CalPERS and "
+const experienceDuration6 = "(09/2018 - 05/2022)";
+const experienceDescription6_1 = "Supported software migration projects as part of the Provider Data Analytics Team by providing data processing support as a "
++ "workaround solution during the phases of the system migration project. ";
+const experienceDescription6_2 = "Responsibility included testing enhancements, documenting production issues, and creating workaround solutions for system limitations.";
+const experienceDescription6_3 = "Enhancing, maintaining, and troubleshooting VBA compile errors for current system applications, including Microsoft Access. " 
++ "Enhancing Flow Charts using Microsoft Visio for Automation testing of SQL Server Business Intelligence SSIS jobs.";
+
+// Variables for experience 7
+const experienceImgSrc7 = "assets/experience/centene-health-net-logo.png";
+const experienceImgAlt7 = "Company 7 Logo";
+const experiencePosition7 = "Data Coordinator";
+const experienceCompany7 = "Centene Corporation - Health Net";
+const experienceDuration7 = "(08/2017 - 09/2018)";
+const experienceDescription7_1 = "Implemented SQL queries to pull paid claim and capitation data to report and audit the completeness and accuracy of the data for the CalPERS and "
 + "Health Net Legacy Employees Groups.";
-const experienceDescription6_2 = "Successfully managed reporting of weekly and monthly paid claims for the Health Net Centene Corporate Legacy Employee "
+const experienceDescription7_2 = "Successfully managed reporting of weekly and monthly paid claims for the Health Net Centene Corporate Legacy Employee "
 + "account using Microsoft Excel PV Tables, Vlookups, Functions, and Visual Basic Application (VBA) Macros for claims including Medical, Mental Health, and Pharmacy.";
-const experienceDescription6_3 = "Successfully managed Health Net Centene's client account, CalPERS, including the reconciling, billing, and reporting for "
+const experienceDescription7_3 = "Successfully managed Health Net Centene's client account, CalPERS, including the reconciling, billing, and reporting for "
 + "capitation, claims, and administrative fees using Excel Visual Basic (VBA) Macros and VBA programming techniques to automate procedural processes.";
 
 
