@@ -5,7 +5,7 @@ const lastName = "Cordova";
 // const portfolioTitle = `${firstName} ${lastName}\nPortfolio`;
 const portfolioTitle = `My Portfolio:\n ${firstName} ${lastName}`;
 const navbarBrandText = "";
-const navbarProfileImage = "./assets/profile_photo.png";
+const navbarProfileImage = "./assets/profile_pic_new.png";
 
 // Home Section //
 // -------------------------------- //
@@ -14,7 +14,7 @@ const sectionHomeDescription = "I hold a Master of Science in Computer Science f
 + "I specialize in Advanced Data Analytics, Machine Learning, and leveraging Python and R for data analysis, automation, and business insights. "
 + "Explore my portfolio to see how I apply computer science, data analytics, and machine learning to develop intelligent, data-informed solutions across research and real-world applications. "
 
-const homeProfileImage = "./assets/home/home_profile_pic.png";
+const homeProfileImage = "./assets/home/pro_photo_new.png";
 
 
 // All Sections //
